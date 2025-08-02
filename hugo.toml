@@ -1,4 +1,4 @@
-baseURL = 'http://localhost:1313/'
+baseURL = 'https://www.kiwigpt.co.nz/'
 languageCode = 'en-us'
 title = 'Kiwigpt'
 theme = 'PaperMod'
