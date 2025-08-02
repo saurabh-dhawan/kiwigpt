@@ -1,0 +1,68 @@
+baseURL = 'https://www.kiwigpt.co.nz/'
+languageCode = 'en-us'
+title = 'Kiwigpt'
+theme = 'PaperMod'
+
+[params]
+  # Enable search functionality
+  env = 'production'
+  title = 'Kiwigpt'
+  description = 'AI research insights, tutorials, and thought leadership from Kiwigpt'
+  keywords = ['AI', 'GPT', 'Machine Learning', 'Research', 'Technology', 'Blog']
+  author = 'Kiwigpt'
+  defaultTheme = 'auto'
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowWordCount = true
+  ShowRssButtonInSectionTermList = true
+  UseHugoToc = true
+  disableSpecial1stPost = false
+  disableScrollToTop = false
+  comments = false
+  hidemeta = false
+  hideSummary = false
+  showtoc = false
+  tocopen = false
+
+[params.homeInfoParams]
+  Title = "Hi there 👋"
+  Content = "Welcome to Kiwigpt - AI research insights and thought leadership"
+
+[params.profileMode]
+  enabled = true
+  title = "Kiwigpt"
+  subtitle = "AI research insights and thought leadership"
+  imageUrl = "<title>/<filename>"
+  imageTitle = "Kiwigpt Logo"
+
+[params.socialIcons]
+  github = "https://github.com/kiwigpt"
+  twitter = "https://twitter.com/kiwigpt"
+  email = "mailto:hello@kiwigpt.co.nz"
+
+[menu]
+  [[menu.main]]
+    identifier = "categories"
+    name = "categories"
+    url = "/categories/"
+    weight = 10
+  [[menu.main]]
+    identifier = "tags"
+    name = "tags"
+    url = "/tags/"
+    weight = 20
+  [[menu.main]]
+    identifier = "example"
+    name = "example.org"
+    url = "https://example.org"
+    weight = 30
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    noClasses = false
