@@ -10,7 +10,7 @@ showToc: true
 TocOpen: false
 hidemeta: false
 comments: false
-canonicalURL: "https://www.kiwigpt.co.nz/posts/hello-world-is-all-you-need/"
+canonicalURL: "https://saurabh-dhawan.github.io/posts/hello-world-is-all-you-need/"
 disableHLJS: false
 disableShare: false
 hideSummary: false
