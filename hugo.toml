@@ -1,6 +1,6 @@
 baseURL = 'https://www.kiwigpt.co.nz/'
 languageCode = 'en-us'
-title = 'Kiwigpt'
+title = 'KiwiGPT'
 theme = 'PaperMod'
 
 [menu]
@@ -34,6 +34,7 @@ theme = 'PaperMod'
     weight = 7
 
 [params]
-  title = 'Kiwigpt'
+  title = 'KiwiGPT'
   description = 'AI research insights and thought leadership'
-  author = 'Kiwigpt'
+  author = 'KiwiGPT'
+  logo = "/KiwiGPT_ico.png"
