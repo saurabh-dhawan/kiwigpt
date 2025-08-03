@@ -40,6 +40,7 @@ theme = 'PaperMod'
 
   [params.label]
     icon = "/KiwiGPT_ico.png"
+    iconHeight = 50
 
   [params.assets]
     favicon = "/favicon.ico"
