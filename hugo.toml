@@ -3,6 +3,36 @@ languageCode = 'en-us'
 title = 'Kiwigpt'
 theme = 'PaperMod'
 
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Daily Briefs"
+    url = "/briefs/"
+    weight = 2
+  [[menu.main]]
+    name = "Posts"
+    url = "/posts/"
+    weight = 3
+  [[menu.main]]
+    name = "Series"
+    url = "/series/"
+    weight = 4
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 5
+  [[menu.main]]
+    name = "Links"
+    url = "/links/"
+    weight = 6
+  [[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 7
+
 [params]
   title = 'Kiwigpt'
   description = 'AI research insights and thought leadership'
