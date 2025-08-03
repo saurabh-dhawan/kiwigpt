@@ -37,10 +37,11 @@ theme = 'PaperMod'
   title = 'KiwiGPT'
   description = 'AI research insights and thought leadership'
   author = 'KiwiGPT'
-  logo = "/KiwiGPT_ico.png"
-  showLogo = true
+
+  [params.label]
+    icon = "/KiwiGPT_ico.png"
 
   [params.assets]
-    favicon = "favicon.ico"
-    favicon16x16 = "favicon-16x16.png"
-    favicon32x32 = "favicon-32x32.png"
+    favicon = "/favicon.ico"
+    favicon16x16 = "/favicon-16x16.png"
+    favicon32x32 = "/favicon-32x32.png"
