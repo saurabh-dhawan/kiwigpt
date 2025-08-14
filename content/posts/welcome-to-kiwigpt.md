@@ -6,21 +6,7 @@ description: "A deep dive into the revolutionary 'Attention is All You Need' pap
 tags: ["ai", "transformer", "attention", "deep-learning", "research"]
 categories: ["ai-research"]
 author: "Kiwigpt"
-showToc: true
-TocOpen: false
-hidemeta: false
-comments: false
-canonicalURL: "https://www.kiwigpt.co.nz/posts/hello-world-is-all-you-need/"
-disableHLJS: false
-disableShare: false
-hideSummary: false
-searchHidden: false
-ShowReadingTime: true
-ShowBreadCrumbs: true
-ShowPostNavLinks: true
-ShowWordCount: true
-ShowRssButtonInSectionTermList: true
-UseHugoToc: true
+comments: true
 ---
 
 # ~~Hello World~~ **Attention** is All You Need
