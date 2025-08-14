@@ -1,15 +1,18 @@
 ---
-title: "Welcome to my corner of the internet"
-description: "Documenting my learning journey across AI, data science, and more."
+title: "KiwiGPT"
+description: "A Kiwi Generating, Publishing, and Tinkering with AI — vibe coding, ideas in public, and small products (some polished, some gloriously half-built)."
 ---
 
-Welcome to KiwiGPT!
+# Kia ora! This is **KiwiGPT**  
+A Kiwi **Generating**, **Publishing**, and **Tinkering** with AI.
 
-I am documenting my learning journey across AI, data science, and various other interests.
+Vibe coding, sharing ideas, and shipping small products. Some are polished; some are gloriously half-built — because life ships as a prototype first.
 
-## Daily Brief
+- 👉 [Posts](/posts/)
+- 🧪 [Experiments](/projects/)
+- 💌 [About](/about/)
 
-Check out my [Daily Briefs](/briefs/). Each day, an automated process summarizes key AI news and advancements and publishes a concise roundup to the site.
+
 
 ## Series
 

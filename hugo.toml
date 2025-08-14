@@ -1,8 +1,8 @@
 baseURL = 'https://www.kiwigpt.co.nz/'
 languageCode = 'en-us'
 title = 'KiwiGPT'
-enableRobotsTXT = true
 theme = 'PaperMod'
+enableRobotsTXT = true
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
@@ -33,6 +33,9 @@ theme = 'PaperMod'
   title = 'KiwiGPT'
   description = "A Kiwi Generating, Publishing, and Tinkering with AI — ideas in public and small products (some polished, some gloriously half-built)."
   author_name = "Saurabh Dhawan"
+  
+  [params.profileMode]
+    enabled = false
   
   [params.label]
     icon = "/KiwiGPT_ico.png"
