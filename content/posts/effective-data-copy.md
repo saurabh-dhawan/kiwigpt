@@ -1,6 +1,6 @@
 ---
 title: "Effective Data Storytelling 2"
-date: 2024-08-02
+date: 2024-08-12
 draft: false
 description: "Communicate insights clearly and persuasively with data storytelling."
 tags: ["storytelling", "communication"]
