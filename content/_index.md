@@ -1,12 +1,12 @@
 ---
 title: "KiwiGPT"
-description: "A Kiwi Generating, Publishing, and Tinkering with AI — vibe coding, ideas in public, and small products (some polished, some gloriously half-built)."
+description: "A Kiwi - Generating, Publishing, and Tinkering - with AI! Vibe coding, ideas in public, and small products (some polished, some gloriously half-built)."
 ---
 
 # Kia ora! This is **KiwiGPT**  
-A Kiwi **Generating**, **Publishing**, and **Tinkering** with AI.
+A Kiwi - **Generating**, **Publishing**, and **Tinkering** - with AI.
 
-Vibe coding, sharing ideas, and shipping small products. Some are polished; some are gloriously half-built — because life ships as a prototype first.
+Vibe coding, sharing ideas, and building small products. Some are polished; some are gloriously half-built — because life ships as a prototype first.
 
 - 👉 [Posts](/posts/)
 - 🧪 [Experiments](/projects/)
