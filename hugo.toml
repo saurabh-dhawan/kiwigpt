@@ -33,6 +33,7 @@ enableRobotsTXT = true
   title = 'KiwiGPT'
   description = "A Kiwi Generating, Publishing, and Tinkering with AI — ideas in public and small products (some polished, some gloriously half-built)."
   author_name = "Saurabh Dhawan"
+  mainSections = ["posts"]
   
   [params.profileMode]
     enabled = false
