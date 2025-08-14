@@ -1,5 +1,5 @@
 ---
-title: "~~Hello World~~ **Attention** is All You Need"
+title: "Hello World is All You Need"
 date: 2024-01-15T10:00:00+00:00
 draft: false
 description: "A deep dive into the revolutionary 'Attention is All You Need' paper that transformed AI"
