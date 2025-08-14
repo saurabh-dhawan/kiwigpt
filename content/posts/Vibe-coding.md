@@ -1,4 +1,10 @@
-
+---
+title: "Vibe Coding"
+date: 2024-08-14
+draft: false
+description: "Vibe Coding"
+tags: ["coding", "fun"]
+---
 
 # Vibe Coding: The Rise of AI-Driven Programming by Feel
 
