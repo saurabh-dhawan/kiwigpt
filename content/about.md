@@ -1,8 +1,6 @@
 ---
 title: "About"
-date: 2025-08-14
 draft: false
-description: "About KiwiGPT – where curiosity meets code, AI, and the occasional half-built experiment."
 ---
 
 Kia ora! I’m Saurabh Dhawan, the human behind **KiwiGPT** – a place where curiosity collides with technology, and experiments are as likely to be half-built as they are finished.  
