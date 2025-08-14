@@ -1,70 +1,47 @@
 ---
-title: "Vibe Coding"
-date: 2024-08-14
+title: "Vibe Coding – Programming by Feel with AI"
+date: 2025-08-14
 draft: false
-description: "Vibe Coding"
-tags: ["coding", "fun"]
+description: "Exploring the emerging trend of vibe coding, where AI takes the lead and humans guide by intuition."
+tags: ["AI", "programming", "software development", "vibe coding", "trends"]
+summary: "A new way of coding is emerging where AI writes most of the code and humans just guide the process — meet vibe coding."
 ---
 
-# Vibe Coding: The Rise of AI-Driven Programming by Feel
+Vibe coding is a buzzworthy approach to software development where developers (and even non-developers) describe what they want in natural language, and a Large Language Model (LLM) generates the code. Instead of meticulously crafting every line, humans focus on testing, tweaking, and guiding the AI’s output—letting the “vibes” steer the process.
 
-> A cutting-edge and slightly controversial coding paradigm where developers let AI take the wheel—guided by *vibes*.
+<!--more-->
 
----
+## Where It Came From
 
-##  Summary
+The term was coined by Andrej Karpathy, former Tesla AI lead and co-founder of OpenAI, in early 2025. Karpathy described it as *“fully giving in to the vibes, embracing exponentials, and forgetting that the code even exists.”* The goal is to shift coding from syntax-wrangling to idea-realisation.
 
-**Vibe coding** is a buzzworthy software development approach where developers describe a project or task in natural language and let a Large Language Model (LLM) generate the code. The human role shifts toward iterative testing and feedback rather than writing code line-by-line. Introduced by Andrej Karpathy in February 2025, it exemplifies how AI can let even non-programmers bring ideas to life—albeit with some notable caveats.  
-1
+## How It Works
 
----
+1. Describe the task or goal in plain language.
+2. Let the AI generate a code implementation.
+3. Test the result and provide feedback.
+4. Iterate until it works as intended.
 
-##  Background
+This process resembles pair-programming with a very fast, very literal partner—one who doesn’t get tired, but can also misunderstand instructions spectacularly.
 
-- **Coined by**: Andrej Karpathy — former Tesla AI leader and co-founder of OpenAI 2  
-- **How it works**: Developers provide tasks and examples; the LLM writes code; developers test and refine through feedback loops 3  
-- Karpathy described it as “fully giving in to the vibes, embracing exponentials, and forgetting that the code even exists.” 4
+## Who’s Using It
 
----
+- Hobbyists building quick prototypes.
+- Startups in early stages, with Y Combinator’s Winter 2025 batch reporting some codebases being 95% AI-generated.
+- Developers looking to rapidly experiment with features or architectures.
 
-##  Adoption & Use Cases
+## Benefits and Risks
 
-- Used by **non-programmers and amateurs** to prototype tools and apps quickly 5  
-- **Y Combinator’s Winter 2025 cohort**: 25% of startups report codebases that are 95% AI-generated 6  
-- Coverage in publications like *The New York Times* and *The Wall Street Journal* indicates growing commercial interest 7
+| Benefits | Risks |
+|----------|-------|
+| Rapid prototyping | Harder to understand underlying code |
+| Lower barrier to entry | Potential hidden bugs and security flaws |
+| Creative freedom | Maintenance can be challenging |
 
----
+Experts caution against shipping vibe-coded software to production without thorough human review and testing.
 
-##  Pros & Cons
+## Why It Matters
 
-|  Advantages                            |  Risks & Challenges                                      |
-|------------------------------------------|-----------------------------------------------------------|
-| Speeds up prototyping and iteration     | Developers may lack understanding of the generated code   |
-| Lowers barrier for entry into coding    | Potential for hidden bugs and security vulnerabilities    |
-| Accelerates concept-to-code workflows   | Maintenance and debugging can be difficult                |
+Vibe coding hints at a future where programming becomes more about creativity and less about syntax. It could democratise software creation, making it accessible to anyone with ideas. But it also raises questions: Who’s responsible for AI-generated mistakes? How do we ensure long-term maintainability?
 
-Experts warn against deploying vibe-coded software in production without thorough review and testing 8.
-
----
-
-##  Implications for the Future of Development
-
-- Could democratize software creation—framing coding as a creative dialogue with AI  
-- Raises questions about accountability and code quality in professional environments  
-- Suggests a shift in developer roles—from manual builders to AI guides and auditors
-
----
-
-##  Further Reading
-
-- *vibe coding*. Merriam-Webster (March 8, 2025) 9  
-- IEEE Spectrum, *Ars Technica*, *The Economist* and more on the broader cultural and operational ramifications 10
-
----
-
-**Why it matters**: Vibe coding encapsulates the thrilling—and sometimes unnerving—moment in IT where AI is no longer just a tool but a creative partner. It's a glimpse into a future where software emerges from collaboration with machines, guided by intention rather than syntax.
-
----
-
-*Feel free to adjust the tone or expand any section—happy to help further!*11
-
+Like many tech trends, vibe coding is both exciting and risky. Whether it becomes the new normal or remains a niche approach will depend on how we balance speed, creativity, and quality.
