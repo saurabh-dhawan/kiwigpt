@@ -2,8 +2,8 @@
 title: "Life Is a Sine Wave — And That’s a Good Thing"
 date: 2025-08-15
 draft: false
-description: "A Kiwi reflection on life’s ups and downs — and how seeing it as a sine wave helps us ride them with more ease."
-tags: ["life lessons", "resilience", "mental models", "practical philosophy", "kiwi wisdom"]
+description: "A reflection on life’s ups and downs — and how seeing it as a sine wave helps us ride them with more ease."
+tags: ["life lessons", "resilience", "mental models", "practical philosophy", "Buddhist wisdom"]
 keywords: ["life as a sine wave", "ups and downs of life", "ride the wave", "nz"]
 slug: "life-is-a-sine-wave"
 showToc: true
@@ -30,4 +30,4 @@ When we remember the wave keeps moving, we stop gripping the peak and dreading t
 
 ---
 
-*Written for [KiwiGPT.co.nz](https://kiwigpt.co.nz) — Generated, Published and Tinkered with AI by a Kiwi*
+*Written for [KiwiGPT.co.nz](https://kiwigpt.co.nz) — Generated, Published and Tinkered with AI by an Indian Kiwi*
