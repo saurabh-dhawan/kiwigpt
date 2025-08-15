@@ -85,10 +85,6 @@ You can work *with* the goldfish brain rather than against it:
 - Periodically **re-summarise** what matters
 - For long documents, use **retrieval-augmented generation** (RAG) so the model can fetch relevant pieces on demand
 
-Internal reads:
-- {{< relref "prompt-engineering-basics" >}}  
-- {{< relref "how-chatgpt-works" >}}
-
 ## Why This Matters for the Future
 
 Yes, bigger context windows are coming — Anthropic’s Claude can handle million tokens, and OpenAI has models in the same range.  
