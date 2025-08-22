@@ -1,7 +1,35 @@
 <div class="mt-6 opacity-80 text-sm">
-  <a href="https://hits.seeyoufarm.com" rel="nofollow noopener" target="_blank">
-    <img
-      alt="Views"
-      src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url={{ .Permalink | urlquery }}&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=views&edge_flat=false" />
-  </a>
+  <span>Views: <span id="post-view-count">…</span></span>
 </div>
+<script>
+(function () {
+  // Per-post key (stable if you change domain)
+  var ns = "kiwigpt.co.nz";
+  var key = "{{ .RelPermalink }}"; // e.g. /posts/my-article/
+
+  // (Optional) basic de-dupe: 1 hit per browser per hour
+  var stamp = new Date().toISOString().slice(0,13); // YYYY-MM-DDTHH
+  var seen = "pv:" + key + ":" + stamp;
+  try {
+    if (localStorage.getItem(seen)) {
+      // Already counted this hour: just read the value
+      fetch("https://api.countapi.xyz/get/" + encodeURIComponent(ns) + "/" + encodeURIComponent(key))
+        .then(r => r.json())
+        .then(d => { if (d && typeof d.value === "number") document.getElementById("post-view-count").textContent = d.value; })
+        .catch(()=>{});
+      return;
+    }
+  } catch(_) {}
+
+  // Increment and display
+  fetch("https://api.countapi.xyz/hit/" + encodeURIComponent(ns) + "/" + encodeURIComponent(key))
+    .then(r => r.json())
+    .then(d => {
+      if (d && typeof d.value === "number") {
+        document.getElementById("post-view-count").textContent = d.value;
+        try { localStorage.setItem(seen, "1"); } catch(_) {}
+      }
+    })
+    .catch(()=>{});
+})();
+</script>
