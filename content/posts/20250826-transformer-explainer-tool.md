@@ -1,7 +1,10 @@
-
----
-
-title: "Quick post: Transformer Explainer" date: 2025-08-26 description: "A quick look at Transformer Explainer, an interactive tool to see how GPT-2 works layer by layer." tags: [transformers, AI, explainer, NLP] keywords: [transformer explainer, GPT-2, NLP, AI tools, New Zealand] slug: quick-post-transformer-explainer type: blog images: ["/images/transformer-explainer.png"]
+title: "Quick post: Transformer Explainer" 
+date: 2025-08-26 
+description: "A quick look at Transformer Explainer, an interactive tool to see how GPT-2 works layer by layer." 
+tags: [transformers, AI, explainer, NLP] 
+keywords: [transformer explainer, GPT-2, NLP, AI tools, New Zealand] 
+slug: quick-post-transformer-explainer 
+type: blog
 
 Relatively short post today.
 
