@@ -11,6 +11,9 @@ slug: "i-tried-to-vibe-code-a-govt-rfi"
 
 **Why I did this:** to test how far a single person can go from **RFI → product** using vibe coding + AI helpers.
 
+## Edit — 27 Aug 2025
+I’ve also expanded this experiment into a more formal vendor-style brief. You can read that follow-up here: [Project Brief: TEC Tahatū CV & Cover Letter Builder (Vendor Simulation)](https://www.kiwigpt.co.nz/posts/tahatu-cv-cover-letter-builder/)
+
 ---
 
 ## TL;DR
