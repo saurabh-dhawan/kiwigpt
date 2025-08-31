@@ -5,8 +5,8 @@ draft: false
 description: "A deep dive into the revolutionary 'Attention is All You Need' paper that transformed AI"
 tags: ["ai", "transformer", "attention", "deep-learning", "research"]
 categories: ["ai-research"]
-author: "Kiwigpt"
 comments: true
+ShowReadingTime: true
 ---
 
 # ~~Hello World~~ **Attention** is All You Need

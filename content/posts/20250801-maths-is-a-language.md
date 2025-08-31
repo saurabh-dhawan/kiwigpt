@@ -7,6 +7,7 @@ keywords: ["maths as language", "AI Olympiad DeepMind", "LLM solving maths", "ma
 slug: maths-as-language-the-last-barrier-for-llms
 images: ["/images/maths-language-ai.jpg"]
 aliases: []
+ShowReadingTime: true
 ---
 
 ## Maths as Language  

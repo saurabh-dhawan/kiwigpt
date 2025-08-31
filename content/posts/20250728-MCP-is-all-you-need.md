@@ -4,6 +4,7 @@ date: 2025-07-28
 draft: false
 description: "Dive into MCP—the protocol making AI agents truly useful by connecting them to tools, data and services."
 tags: ["AI", "protocols", "MCP", "AI agents", "tools"]
+ShowReadingTime: true
 ---
 
 MCP—or **Model Context Protocol**—is the latest open standard that’s supercharging AI agents by giving them a reliable, universal connection to tools, services, and data.

@@ -7,6 +7,7 @@ keywords: ["how to write like a human", "AI writing paranoia", "authenticity onl
 slug: "how-to-write-like-a-human"
 images: ["/images/how-to-write-like-a-human.jpg"]
 aliases: []
+ShowReadingTime: true
 ---
 
 ## The Human Checkist
