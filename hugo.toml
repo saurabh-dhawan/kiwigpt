@@ -52,7 +52,6 @@ enableRobotsTXT = true
 
   # Optional analytics settings (Search Console, etc.)
   [params.analytics]
-  ga4ViewsEndpoint = "" # e.g., https://script.google.com/macros/s/XXX/exec
     [params.analytics.google]
       SiteVerificationTag = ""
 

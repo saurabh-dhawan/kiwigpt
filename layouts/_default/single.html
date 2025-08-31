@@ -45,9 +45,7 @@
   </div>
   {{- end }}
 
-  {{/* --- Added: per-post view counter below --- */}}
-  {{ partial "post-counter.html" . }}
-  {{/* --- End added --- */}}
+  
 
   <footer class="post-footer">
     {{- $tags := .Language.Params.Taxonomies.tag | default "tags" }}
