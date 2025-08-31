@@ -1,3 +1,20 @@
 .header {
   border-bottom: 1px solid var(--border);
 }
+
+.tech-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 8px 0 12px;
+}
+
+.tech-icons img {
+  height: 24px;
+  opacity: 0.9;
+}
+
+.tech-icons img:hover {
+  opacity: 1;
+}
