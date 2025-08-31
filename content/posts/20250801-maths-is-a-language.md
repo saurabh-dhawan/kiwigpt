@@ -5,7 +5,6 @@ description: "Maths is the hardest language. AI now speaks it at Olympiad level.
 tags: ["AI and mathematics", "DeepMind", "Large language models", "Problem solving", "Future of reasoning"]
 keywords: ["maths as language", "AI Olympiad DeepMind", "LLM solving maths", "machine native tongue maths", "AI reasoning future", "NZ education"]
 slug: maths-as-language-the-last-barrier-for-llms
-images: ["/images/maths-language-ai.jpg"]
 aliases: []
 ShowReadingTime: true
 ---

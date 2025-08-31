@@ -9,7 +9,6 @@ slug: "life-is-a-sine-wave"
 showToc: true
 tocOpen: false
 ShowReadingTime: true
-images: []
 canonicalURL: ""
 aliases: []
 ---

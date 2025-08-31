@@ -9,7 +9,6 @@ slug: "why-ai-forgets-context-window-explained"
 showToc: true
 tocOpen: false
 ShowReadingTime: true
-images: []
 canonicalURL: ""
 aliases: []
 

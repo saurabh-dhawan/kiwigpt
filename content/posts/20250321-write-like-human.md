@@ -5,7 +5,6 @@ description: "Satirical guide to human writing in the A.I. age: typos, broken se
 tags: [AI writing, satire, authenticity, culture, communication]
 keywords: ["how to write like a human", "AI writing paranoia", "authenticity online", "NZ"]
 slug: "how-to-write-like-a-human"
-images: ["/images/how-to-write-like-a-human.jpg"]
 aliases: []
 ShowReadingTime: true
 ---

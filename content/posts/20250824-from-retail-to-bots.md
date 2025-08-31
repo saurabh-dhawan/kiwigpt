@@ -9,7 +9,6 @@ slug: "from-retail-to-robots"
 showToc: true
 tocOpen: false
 ShowReadingTime: true
-images: []
 canonicalURL: ""
 aliases: []
 ---
