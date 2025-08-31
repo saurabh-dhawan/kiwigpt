@@ -1,41 +1,60 @@
-{{/* Reusable per-post counter using CountAPI (JSONP) */}}
+{{/* Reusable per-post counter.
+     If params.analytics.ga4ViewsEndpoint is set, use that to read/increment views.
+     Otherwise, use CountAPI as a simple fallback. */}}
 <div class="mt-6 opacity-80 text-sm">
   <span>Views: <span id="post-view-count">…</span></span>
+  <noscript>Enable JavaScript to see view counts.</noscript>
+  <script>
+  (function () {
+    var el = document.getElementById("post-view-count");
+    if (!el) return;
+
+    var path = "{{ .RelPermalink }}";
+    var ga4 = "{{ with site.Params.analytics.ga4ViewsEndpoint }}{{ . }}{{ end }}";
+
+    function setCount(n){ if (typeof n === 'number' && isFinite(n)) el.textContent = n; }
+
+    if (ga4) {
+      // Expect a GET endpoint that returns { count: number } and increments the view
+      fetch(ga4 + "?path=" + encodeURIComponent(path), { method: 'GET', mode: 'cors' })
+        .then(function(r){ return r.json(); })
+        .then(function(d){ setCount(d && d.count); })
+        .catch(function(){ fallback(); });
+    } else {
+      fallback();
+    }
+
+    function fallback() {
+      var ns  = "kiwigpt.co.nz";
+      var key = path;
+
+      var cb = "capi_" + Math.random().toString(36).slice(2);
+      window[cb] = function (d) {
+        if (d && typeof d.value === "number") setCount(d.value);
+        cleanup();
+      };
+
+      function cleanup() {
+        try { delete window[cb]; } catch(_) {}
+        if (script && script.parentNode) script.parentNode.removeChild(script);
+      }
+
+      var script = document.createElement("script");
+      script.src = "https://api.countapi.xyz/hit/"
+                 + encodeURIComponent(ns) + "/"
+                 + encodeURIComponent(key)
+                 + "?callback=" + cb;
+      script.onerror = function () {
+        try {
+          fetch("https://api.countapi.xyz/hit/"
+                + encodeURIComponent(ns) + "/"
+                + encodeURIComponent(key))
+            .then(function(r){return r.json();})
+            .then(function(d){ setCount(d && d.value); });
+        } catch(_) {}
+      };
+      document.head.appendChild(script);
+    }
+  })();
+  </script>
 </div>
-<script>
-(function () {
-  var ns  = "kiwigpt.co.nz";
-  var key = "{{ .RelPermalink }}"; // stable per post, domain-agnostic
-  var el  = document.getElementById("post-view-count");
-  if (!el) return;
-
-  // JSONP callback to avoid CORS/adblock fetch issues
-  var cb = "capi_" + Math.random().toString(36).slice(2);
-  window[cb] = function (d) {
-    if (d && typeof d.value === "number") el.textContent = d.value;
-    cleanup();
-  };
-
-  function cleanup() {
-    try { delete window[cb]; } catch(_) {}
-    if (script && script.parentNode) script.parentNode.removeChild(script);
-  }
-
-  var script = document.createElement("script");
-  script.src = "https://api.countapi.xyz/hit/"
-             + encodeURIComponent(ns) + "/"
-             + encodeURIComponent(key)
-             + "?callback=" + cb;
-  script.onerror = function () {
-    // Fallback to fetch if JSONP is blocked for some reason
-    try {
-      fetch("https://api.countapi.xyz/hit/"
-            + encodeURIComponent(ns) + "/"
-            + encodeURIComponent(key))
-        .then(function(r){return r.json();})
-        .then(function(d){ if (d && typeof d.value === "number") el.textContent = d.value; });
-    } catch(_) {}
-  };
-  document.head.appendChild(script);
-})();
-</script>
