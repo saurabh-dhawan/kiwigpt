@@ -1,6 +1,6 @@
 ---
 title: "Vibe Coding – Programming by Feel with AI"
-date: 2025-08-14
+date: 2025-06-10
 draft: false
 description: "Exploring the emerging trend of vibe coding, where AI takes the lead and humans guide by intuition."
 tags: ["AI", "programming", "software development", "vibe coding", "trends"]

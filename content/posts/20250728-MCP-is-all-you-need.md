@@ -1,6 +1,6 @@
 ---
 title: "What Is MCP? The AI Protocol Bridging Models and Tools"
-date: 2025-03-03
+date: 2025-07-28
 draft: false
 description: "Dive into MCP—the protocol making AI agents truly useful by connecting them to tools, data and services."
 tags: ["AI", "protocols", "MCP", "AI agents", "tools"]

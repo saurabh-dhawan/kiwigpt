@@ -1,6 +1,6 @@
 ---
 title: "How to Write Like a Human (Hint: Don’t Be Too Polished)"
-date: 2025-08-21
+date: 2025-03-21
 description: "Satirical guide to human writing in the A.I. age: typos, broken sentences, and the new style of proving you’re real."
 tags: [AI writing, satire, authenticity, culture, communication]
 keywords: ["how to write like a human", "AI writing paranoia", "authenticity online", "NZ"]

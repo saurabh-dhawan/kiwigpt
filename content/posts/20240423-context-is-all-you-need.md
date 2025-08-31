@@ -1,6 +1,6 @@
 ---
 title: "Context Is All You Need — Why AI Cares About Context"
-date: 2025-04-23
+date: 2024-04-23
 draft: false
 description: "How the power of context—attention, long windows, and real-time signals—is becoming AI’s most valuable asset."
 tags: ["AI", "context", "transformers", "attention", "long-context", "RAG"]

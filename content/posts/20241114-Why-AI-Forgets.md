@@ -1,6 +1,6 @@
 ---
 title: "Why AI Forgets: The Context Window Explained"
-date: 2025-08-15
+date: 2024-11-14
 draft: false
 description: "Why AI models forget: the truth about context windows, token limits, and how to work with them."
 tags: ["LLMs", "context window", "AI memory", "prompt engineering", "ChatGPT"]

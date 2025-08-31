@@ -1,6 +1,6 @@
 ---
 title: "Maths as Language: The Last Barrier for LLMs?"
-date: 2025-08-17
+date: 2025-08-01
 description: "Maths is the hardest language. AI now speaks it at Olympiad level. What happens when machines master the language of proofs?"
 tags: ["AI and mathematics", "DeepMind", "Large language models", "Problem solving", "Future of reasoning"]
 keywords: ["maths as language", "AI Olympiad DeepMind", "LLM solving maths", "machine native tongue maths", "AI reasoning future", "NZ education"]

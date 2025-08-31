@@ -1,6 +1,6 @@
 ---
 title: "From Retail to Robots: The Evolution of Customer Channels"
-date: 2025-08-15
+date: 2025-08-24
 draft: false
 description: "From counters to chatbots, see how NZ’s service channels evolved and why AI might finally put us ahead."
 tags: ["channel evolution", "AI", "digital transformation", "NZ business", "customer experience"]
