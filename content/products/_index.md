@@ -9,4 +9,6 @@ A collection of small products and utilities.
 - Some are MVPs; others are polished.
 - Expect frequent iteration and changelogs.
 
-Browse all product posts below.
+Featured:
+
+- TAHATU – CV + Cover Letter Builder: https://www.kiwigpt.co.nz/posts/tahatu-cv-cover-letter-builder/
