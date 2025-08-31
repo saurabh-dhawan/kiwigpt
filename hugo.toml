@@ -20,9 +20,9 @@ enableRobotsTXT = true
     url = "/posts/"
     weight = 2
   [[menu.main]]
-    name = "Products"
-    url = "/products/"
-    weight = 4
+  name = "Search"
+  url = "/search/"
+  weight = 3
   [[menu.main]]
     name = "About"
     url = "/about/"
