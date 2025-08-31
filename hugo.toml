@@ -4,6 +4,9 @@ title = 'KiwiGPT'
 theme = 'PaperMod'
 enableRobotsTXT = true
 
+[services]
+  [services.googleAnalytics]
+    ID = "G-Q2XVVBQ36H"
 [outputs]
   home = ["HTML", "RSS", "JSON"]
 
@@ -46,6 +49,11 @@ enableRobotsTXT = true
     favicon = "/favicon.ico"
     favicon16x16 = "/favicon-16x16.png"
     favicon32x32 = "/favicon-32x32.png"
+
+  # Optional analytics settings (Search Console, etc.)
+  [params.analytics]
+    [params.analytics.google]
+      SiteVerificationTag = ""
 
 [markup.goldmark.renderer]
 unsafe = true
