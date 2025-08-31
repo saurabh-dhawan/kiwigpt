@@ -33,6 +33,7 @@ This process resembles pair-programming with a very fast, very literal partner�
 - Hobbyists building quick prototypes.
 - Startups in early stages, with Y Combinator’s Winter 2025 batch reporting some codebases being 95% AI-generated.
 - Developers looking to rapidly experiment with features or architectures.
+- Me 😀
 
 ## Benefits and Risks
 
