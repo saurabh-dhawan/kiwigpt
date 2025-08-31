@@ -6,8 +6,7 @@ description: "Why AI models forget: the truth about context windows, token limit
 tags: ["LLMs", "context window", "AI memory", "prompt engineering", "ChatGPT"]
 keywords: ["LLM context window", "AI memory limits", "token limit in ChatGPT", "nz"]
 slug: "why-ai-forgets-context-window-explained"
-showToc: true
-tocOpen: false
+ 
 ShowReadingTime: true
 canonicalURL: ""
 aliases: []

@@ -38,6 +38,7 @@ enableRobotsTXT = true
   author_name = "Saurabh Dhawan"
   mainSections = ["posts"]
   ShowReadingTime = true
+  ShowToc = false
   
   [params.profileMode]
     enabled = false

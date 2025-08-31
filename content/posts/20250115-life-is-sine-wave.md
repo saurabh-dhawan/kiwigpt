@@ -6,8 +6,7 @@ description: "A reflection on life’s ups and downs — and how seeing it as a 
 tags: ["life lessons", "resilience", "mental models", "practical philosophy", "Buddhist wisdom"]
 keywords: ["life as a sine wave", "ups and downs of life", "ride the wave", "nz"]
 slug: "life-is-a-sine-wave"
-showToc: true
-tocOpen: false
+ 
 ShowReadingTime: true
 canonicalURL: ""
 aliases: []

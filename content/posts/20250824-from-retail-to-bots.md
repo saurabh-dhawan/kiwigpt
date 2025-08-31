@@ -6,8 +6,7 @@ description: "From counters to chatbots, see how NZ’s service channels evolved
 tags: ["channel evolution", "AI", "digital transformation", "NZ business", "customer experience"]
 keywords: ["customer service channels", "digital transformation", "AI in New Zealand", "government vs private innovation", "NZ"]
 slug: "from-retail-to-robots"
-showToc: true
-tocOpen: false
+ 
 ShowReadingTime: true
 canonicalURL: ""
 aliases: []
