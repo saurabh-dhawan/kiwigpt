@@ -10,6 +10,7 @@ slug: "why-ai-forgets-context-window-explained"
 ShowReadingTime: true
 canonicalURL: ""
 aliases: []
+---
 
 You tell ChatGPT something in the morning and by afternoon it’s forgotten.  
 Is it lying, lazy, or limited? Spoiler: it’s limited — by design.
