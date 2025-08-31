@@ -5,12 +5,13 @@ description: "A Kiwi - Generating, Publishing, and Tinkering - with AI! Vibe cod
 
 #
 <div style="display:flex;gap:16px;align-items:center;justify-content:center;flex-wrap:wrap;margin: 8px 0 16px;">
-		<img src="/TechIcon_Python.png" alt="Python" height="28"/>
-		<img src="/TechIcon_NeuralNetwork.png" alt="Neural Network" height="28"/>
-		<img src="/TechIcon_Jupyter.png" alt="Jupyter" height="28"/>
-		<img src="/TechIcon_Git.png" alt="Git" height="28"/>
-		<img src="/TechIcon_AWS.png" alt="AWS" height="28"/>
-		<img src="/TechIcon_API.png" alt="API" height="28"/>
+			<img src="/TechIcon/TechIcon_Python.png" alt="Python" height="28"/>
+			<img src="/TechIcon/TechIcon_NeuralNetwork.png" alt="Neural Network" height="28"/>
+			<img src="/TechIcon/TechIcon_Jupyter.png" alt="Jupyter" height="28"/>
+			<img src="/TechIcon/TechIcon_Git.png" alt="Git" height="28"/>
+			<img src="/TechIcon/TechIcon_AWS.png" alt="AWS" height="28"/>
+			<img src="/TechIcon/TechIcon_API.png" alt="API" height="28"/>
+			<img src="/TechIcon/TechIcon_VSCode.png" alt="VS Code" height="28"/>
 </div>
 
 # Kia ora! This is **KiwiGPT**  
