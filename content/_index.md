@@ -13,11 +13,6 @@ Vibe coding, sharing ideas, and building small products. Some are polished; some
 - 💌 [About](/about/)
 
 
-
-## Series
-
-Explore [Series](/series/) for collections of related posts organized into learning paths.
-
 ## Latest Posts
 
 ---
