@@ -3,6 +3,16 @@ title: "KiwiGPT"
 description: "A Kiwi - Generating, Publishing, and Tinkering - with AI! Vibe coding, ideas in public, and small products (some polished, some gloriously half-built)."
 ---
 
+#
+<div style="display:flex;gap:16px;align-items:center;justify-content:center;flex-wrap:wrap;margin: 8px 0 16px;">
+	<img src="/Python-logo-notext.svg.png" alt="Python" height="28"/>
+	<img src="/Neural_network.svg.png" alt="Neural Network" height="28"/>
+	<img src="/Jupyter_logo.svg.png" alt="Jupyter" height="28"/>
+	<img src="/Git_icon.svg.png" alt="Git" height="28"/>
+	<img src="/Cib-amazon-aws_(CoreUI_Icons_v1.0.0).svg.png" alt="AWS" height="28"/>
+	<img src="/API_-_The_Noun_Project.svg.png" alt="API" height="28"/>
+</div>
+
 # Kia ora! This is **KiwiGPT**  
 A Kiwi - **Generating**, **Publishing**, and **Tinkering** - with AI.
 
