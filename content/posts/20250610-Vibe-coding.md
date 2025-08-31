@@ -7,7 +7,7 @@ tags: ["AI", "programming", "software development", "vibe coding", "trends"]
 ShowReadingTime: true
 ---
 
-##summary: "A new way of coding is emerging where AI writes most of the code and humans just guide the process — meet vibe coding."
+## summary: "A new way of coding is emerging where AI writes most of the code and humans just guide the process — meet vibe coding."
 
 Vibe coding is a buzzworthy approach to software development where developers (and even non-developers) describe what they want in natural language, and a Large Language Model (LLM) generates the code. Instead of meticulously crafting every line, humans focus on testing, tweaking, and guiding the AI’s output—letting the “vibes” steer the process.
 
