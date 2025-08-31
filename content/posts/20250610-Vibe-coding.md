@@ -5,6 +5,8 @@ draft: false
 description: "Exploring the emerging trend of vibe coding, where AI takes the lead and humans guide by intuition."
 tags: ["AI", "programming", "software development", "vibe coding", "trends"]
 ShowReadingTime: true
+---
+
 summary: "A new way of coding is emerging where AI writes most of the code and humans just guide the process — meet vibe coding."
 ---
 
