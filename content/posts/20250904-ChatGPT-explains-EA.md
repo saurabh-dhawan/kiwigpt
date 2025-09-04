@@ -36,7 +36,7 @@ Here’s what ChatGPT replied—to a five-year-old, no less:
 
 And since this is a true experiment, I asked it to create an image of this explanation. Here’s what came back:
 
-![Enterprise Architect explained to a 5-year-old as a pirate town map with huts, docks, treasure vaults, and paths](../images/ea-pirate-town.png)
+![Enterprise Architect explained to a 5-year-old as a pirate town map with huts, docks, treasure vaults, and paths](/images/ea-pirate-town.png)
 
 ---
 
