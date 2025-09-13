@@ -12,9 +12,9 @@ If you reward fluency over truth, don’t be surprised when your AI speaks nonse
 That is the sobering lesson from recent work on why large language models (LLMs) hallucinate. The research is clear: hallucinations are not mysterious glitches, but the rational outcome of how these systems are trained and evaluated. When the training signal rewards confident answers, models learn to manufacture them—truthful or not.
 
 ### The problem with beautiful nonsense
-The arXiv paper [https://arxiv.org/abs/2509.04664] *Why Language Models Hallucinate* makes a blunt claim: hallucinations arise because LLMs are optimised for being useful and fluent, not necessarily correct. In other words, they are rewarded for *looking right* more than for *being right*. That incentive structure guarantees some degree of dishonesty, even if the model has no intention in the human sense.
+The paper [*Why Language Models Hallucinate*](https://arxiv.org/abs/2509.04664) makes a blunt claim: hallucinations arise because LLMs are optimised for being useful and fluent, not necessarily correct. In other words, they are rewarded for *looking right* more than for *being right*. That incentive structure guarantees some degree of dishonesty, even if the model has no intention in the human sense.
 
-OpenAI’s article [https://openai.com/index/why-language-models-hallucinate/] *Why Language Models Hallucinate* makes a similar point in plainer terms: LLMs hallucinate because they are designed to be helpful conversationalists, which sometimes means producing an answer even when the truth is uncertain. Their examples range from casual question-answering to more knowledge-intensive tasks, illustrating how the pressure to answer can override accuracy. Extending this to a local context, we can imagine what might happen if a model confidently produced an incorrect translation of te reo Māori, or invented cultural references that never existed. Such errors would not only misinform—they could undermine cultural integrity and trust.
+[OpenAI’s article *Why Language Models Hallucinate*](https://openai.com/index/why-language-models-hallucinate/) makes a similar point in plainer terms: LLMs hallucinate because they are designed to be helpful conversationalists, which sometimes means producing an answer even when the truth is uncertain. Their examples range from casual question-answering to more knowledge-intensive tasks, illustrating how the pressure to answer can override accuracy. Extending this to a local context, we can imagine what might happen if a model confidently produced an incorrect translation of te reo Māori, or invented cultural references that never existed. Such errors would not only misinform—they could undermine cultural integrity and trust.
 
 ### What dishonesty costs
 The fallout of dishonesty in AI mirrors the fallout in human institutions:
@@ -39,4 +39,4 @@ Honesty, then, isn’t a quaint proverb. It’s infrastructure. It is the only p
 
 ---
 
-*Written for [https://kiwigpt.co.nz](https://kiwigpt.co.nz) — Generated, Published and Tinkered with AI by a Kiwi*
+*Written for [KiwiGPT.co.nz](https://kiwigpt.co.nz) — Generated, Published and Tinkered with AI by a Kiwi*
