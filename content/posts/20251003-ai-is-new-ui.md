@@ -14,7 +14,7 @@ canonicalURL: ""
 - Agents (like those built on [Model Context Protocol](https://www.anthropic.com/news/model-context-protocol)) go further, skipping native UIs to act on your behalf.  
 - But not everything should be replaced: old UIs remain best for precision, safety, and learning.  
 - For Kiwi companies (Trade Me, Xero, One NZ), the challenge is balancing AI’s magic with trust, transparency, and compliance.  
--[In AWS this was achievable in last decade but now it's mainstream](https://www.kiwigpt.co.nz/posts/alexa-skill-demo-customer-care/)
+- [In AWS this was achievable in last decade but now it's mainstream](https://www.kiwigpt.co.nz/posts/alexa-skill-demo-customer-care/)
 
 ---
 
