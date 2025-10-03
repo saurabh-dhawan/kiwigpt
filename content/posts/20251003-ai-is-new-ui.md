@@ -5,7 +5,7 @@ description: "From words as input to agents as interface, AI changes how Kiwis w
 tags: ["AI UX", "Agents", "NZ Tech", "Business Strategy"]
 keywords: ["AI is the new UI", "AI agents", "language interface", "trademe", "xero", "one.nz"]
 slug: "ai-is-the-new-ui"
-images: ["/images/ai-ui-agents-nz.svg"]
+images: []
 canonicalURL: ""
 ---
 
@@ -45,10 +45,17 @@ For Kiwi businesses:
 - **Trade Me** could let sellers ask: “Re-list unsold items with a 10% discount.” The agent edits and posts, logging every change.  
 - **Xero** could expose invoice tools to an AI layer — your request flows straight into the accounting engine, with audit trails for compliance.  
 
-This flips design priorities. Instead of screen flows, product teams now define:  
-- **Intents**: what tasks should the AI handle?  
-- **Guardrails**: which permissions, approvals, and logs are mandatory?  
-- **Transparency**: how do users see what the agent actually did?  
+---
+
+## Lookback 🥝
+
+Back in 2020, I built an [Alexa skill demo for customer care](https://www.kiwigpt.co.nz/posts/alexa-skill-demo-customer-care/). At the time it felt futuristic: voice-driven support that cut through clunky menus.  
+
+What’s striking now is how **close this is to reality for enterprise apps**. Thanks to conversational AI plus protocols like MCP, what was a demo hack on Alexa then is turning into a practical product pattern today. The dream of “skip the app, just ask” is no longer speculative — it’s deployable.  
+
+## Watch the demo
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/gsih5RL4pT0?si=LS-lsu41DzYz2XDb" title="Alexa Skill Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
 
