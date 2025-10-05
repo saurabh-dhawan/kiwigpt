@@ -1,10 +1,10 @@
 ---
-title: "The Broom That Wouldn’t Stop: What Disney Got Right About AI"
+title: "What Disney Got Right About AI"
 date: 2025-10-05
 description: "Disney’s Sorcerer’s Apprentice nailed the agentic AI problem before AI even existed — a cheeky parable about power, obedience, and blame."
 tags: ["AI", "agentic AI", "Disney", "alignment", "automation", "ethics"]
 keywords: ["agentic AI", "Sorcerer’s Apprentice", "AI alignment", "automation gone wrong", "Disney AI parable"]
-slug: the-broom-that-wouldnt-stop-what-disney-got-right-about-ai
+slug: what-disney-got-right-about-ai
 canonicalURL: ""
 images: []
 ---
