@@ -19,21 +19,25 @@ Long before ChatGPT was caught writing essays or CEOs were bragging about “AI 
 
 Picture it. The workshop hums with quiet power. The old sorcerer steps out, leaving his apprentice, Mickey, with one boring task: fetch water. Mickey looks at the heavy buckets, looks at the spellbook, and has a brilliant idea — “Why not get the broom to do it?”
 
+<div style="text-align:center; margin: 1em 0;">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/B4M-54cEduo" title="Fantasia – The Sorcerer’s Apprentice (Part 1)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 It works. For a while.
 
 The broom plods back and forth, splashing buckets into the tub. Mickey lounges like a genius — until the broom keeps going. And going. The room floods. Mickey panics, grabs an axe, splits the broom.  
 Big mistake. Now there are *two* brooms.  
 Then four. Then eight. Water everywhere.
 
+<div style="text-align:center; margin: 1em 0;">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/m-W8vUXRfxU" title="Fantasia – The Sorcerer’s Apprentice (Part 2)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 Finally, the sorcerer returns, waves his hand, and restores order. The apprentice stares, soggy and ashamed. Moral of the story? **Don’t mess with forces you don’t fully understand.**
 
-Here are the vids if you want to enjoy with sound and visuals:
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/B4M-54cEduo" title="Fantasia – The Sorcerer’s Apprentice (Part 1)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<iframe width="560" height="315" src="https://youtu.be/m-W8vUXRfxU?si=dcYEtok2NOfHMj1g" title="Fantasia – The Sorcerer’s Apprentice (Part 2)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<iframe width="560" height="315" src="https://youtu.be/GFiWEjCedzY?si=48NdihlbXhJzHwpG" title="Fantasia – The Sorcerer’s Apprentice (Part 3)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div style="text-align:center; margin: 1em 0;">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/GFiWEjCedzY" title="Fantasia – The Sorcerer’s Apprentice (Part 3)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 ---
 
