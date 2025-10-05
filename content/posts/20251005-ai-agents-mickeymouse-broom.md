@@ -1,10 +1,10 @@
 ---
-title: "What Disney Got Right About AI"
+title: "What Disney Got Right About AI 80 Years Ago"
 date: 2025-10-05
-description: "Disney’s Sorcerer’s Apprentice nailed the agentic AI problem before AI even existed — a cheeky parable about power, obedience, and blame."
+description: "Disney’s Fantasia foretold the agentic AI problem decades before it existed — a witty parable about automation, obedience, and human hubris."
 tags: ["AI", "agentic AI", "Disney", "alignment", "automation", "ethics"]
-keywords: ["agentic AI", "Sorcerer’s Apprentice", "AI alignment", "automation gone wrong", "Disney AI parable"]
-slug: what-disney-got-right-about-ai
+keywords: ["agentic AI", "Sorcerer’s Apprentice", "Der Zauberlehrling", "AI alignment", "automation gone wrong", "Disney AI parable"]
+slug: what-disney-got-right-about-ai-80-years-ago
 canonicalURL: ""
 images: []
 ---
@@ -41,6 +41,18 @@ Finally, the sorcerer returns, waves his hand, and restores order. The apprentic
 
 ---
 
+## The Original Spellbook ✨
+
+Disney didn’t invent this parable — he just animated it with colour and chaos.  
+The story comes from **“Der Zauberlehrling”**, a 1797 poem by Johann Wolfgang von Goethe. In it, an overeager apprentice enchants a broom to do his chores, loses control, and nearly drowns in the consequences.
+
+It’s been called *“the story of humanity’s oldest problem — wanting power faster than we can handle it.”*  
+That’s not just good poetry; it’s the most concise definition of technological hubris ever written.
+
+Two centuries later, the same line applies perfectly to agentic AI.
+
+---
+
 ## The Broom Isn’t the Problem 🧹
 
 Now, here’s the twist:  
@@ -73,8 +85,7 @@ We forgot that autonomy without understanding is still just obedience. And that 
 
 ## The Real Lesson 🧠
 
-Disney wasn’t warning us about technology. He was warning us about *ourselves*.
-
+Goethe’s apprentice, Disney’s Mickey, and today’s developers all share one flaw: *impatience*.  
 Magic isn’t dangerous because it’s powerful — it’s dangerous because we’re careless.  
 Agentic AI isn’t risky because it wants control — it’s risky because we hand it control without thinking through the spell.
 
