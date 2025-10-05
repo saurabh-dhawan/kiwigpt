@@ -27,9 +27,13 @@ Then four. Then eight. Water everywhere.
 
 Finally, the sorcerer returns, waves his hand, and restores order. The apprentice stares, soggy and ashamed. Moral of the story? **Don’t mess with forces you don’t fully understand.**
 
-Here’s the scene itself, in glorious chaos:
+Here are the vids if you want to enjoy with sound and visuals:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/B4M-54cEduo" title="Fantasia – The Sorcerer’s Apprentice (Part 1)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://youtu.be/m-W8vUXRfxU?si=dcYEtok2NOfHMj1g" title="Fantasia – The Sorcerer’s Apprentice (Part 2)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://youtu.be/GFiWEjCedzY?si=48NdihlbXhJzHwpG" title="Fantasia – The Sorcerer’s Apprentice (Part 3)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
 
