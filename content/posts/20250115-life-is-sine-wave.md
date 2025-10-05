@@ -1,6 +1,6 @@
 ---
 title: "Life Is a Sine Wave — And That’s a Good Thing"
-date: 2025-01-15
+date: 2024-08-26
 draft: false
 description: "A reflection on life’s ups and downs — and how seeing it as a sine wave helps us ride them with more ease."
 tags: ["life lessons", "resilience", "mental models", "practical philosophy", "Buddhist wisdom"]
