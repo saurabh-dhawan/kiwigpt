@@ -8,7 +8,7 @@ slug: "ai-chinese-whispers-experiment"
 canonicalURL: "https://kiwigpt.co.nz/posts/ai-chinese-whispers-experiment"
 ---
 
-Every Kiwi knows *The Tortoise and the Hare*. But what happens when you hand that story to an AI and ask it to summarise it — again, and again, and again, twenty times in a row?
+Everyone knows *The Tortoise and the Hare*. But what happens when you hand that story to an AI and ask it to summarise it — again, and again, and again, twenty times in a row?
 
 This experiment is the AI equivalent of the childhood game “Chinese Whispers,” where a message whispered around a circle mutates into hilarious nonsense by the time it gets back to you. Except here, the whisperers are language models. And the message is Aesop’s tidy moral about patience and pride.
 
