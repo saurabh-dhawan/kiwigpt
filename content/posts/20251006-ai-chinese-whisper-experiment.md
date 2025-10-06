@@ -1,5 +1,5 @@
 ---
-title: "When AI Plays Chinese Whispers: The Tortoise, the Hare, and Linguistic Entropy"
+title: "Lost in Transmission Experiment - The Tortoise, the Hare, and Linguistic Entropy"
 date: 2025-10-06
 description: "An AI experiment exploring how meaning decays through repeated summarisation — from clear narrative to digital noise."
 tags: ["AI drift", "language models", "experiments", "text entropy", "summarisation"]
@@ -10,7 +10,7 @@ canonicalURL: "https://kiwigpt.co.nz/posts/ai-chinese-whispers-experiment"
 
 Everyone knows *The Tortoise and the Hare*. But what happens when you hand that story to an AI and ask it to summarise it — again, and again, and again, twenty times in a row?
 
-This experiment is the AI equivalent of the childhood game “Chinese Whispers,” where a message whispered around a circle mutates into hilarious nonsense by the time it gets back to you. Except here, the whisperers are language models. And the message is Aesop’s tidy moral about patience and pride.
+This experiment is the AI equivalent of the childhood game “Whisper Loops” where a message whispered around a circle mutates into hilarious nonsense by the time it gets back to you. Except here, the whisperers are language models. And the message is Aesop’s tidy moral about patience and pride.
 
 ---
 
