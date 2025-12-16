@@ -1,6 +1,6 @@
 ---
 title: "Why AI Strategy Matters — Even When You're Just Starting"
-date: 2025-12-16
+date: 2025-12-15
 description: "Why organisations starting their AI journey still need a strategy — and why it must be directional, not a fixed target state."
 tags:
   - ai-strategy
