@@ -1,6 +1,6 @@
 ---
 title: "Happy New Year, Happy New News: Claude Code Goes (Almost) Local"
-date: 2026-01-25
+date: 2026-01-24
 description: "Claude Code can now run against local models via Ollama. Big implications, real trade-offs, and why this quietly changes the AI tooling market in 2026."
 tags: ["ai tools", "claude", "ollama", "local llms", "developer productivity"]
 keywords: ["claude code local", "ollama anthropic api", "local llms nz", "ai coding tools"]
