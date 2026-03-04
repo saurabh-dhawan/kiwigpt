@@ -15,9 +15,12 @@ slug: alexa-skill-demo-customer-care
 canonicalURL: https://kiwigpt.co.nz/alexa-skill-demo-customer-care
 ---
 
-Voice assistants are becoming more than gadgets in 2020 — they’re tools for everyday problem-solving. Over a weekend I built a quick Alexa skill, called *Care*, to see how voice and serverless tech could handle routine customer-care tasks.  
+Voice assistants are becoming more than gadgets in 2020 — they’re tools for everyday problem-solving. Over a weekend I built a quick Alexa skill, called *Care*, to see how voice and serverless tech could handle routine customer-care tasks.
+
+Alexa skills leverage machine learning (ML) and AI for natural language understanding (NLU), automated speech recognition (ASR), and text-to-speech (TTS) to interpret user voice commands and improve responses over time.
 
 The demo shows Alexa resuming a TV subscription, switching billing to email, and even scheduling a call with a human agent when needed. All of it runs on **AWS Lambda**, meaning no servers to manage and easy scaling.  
+
 
 ---
 
