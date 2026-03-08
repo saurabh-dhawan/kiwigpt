@@ -11,16 +11,20 @@ This is a living lab of small experiments, prototypes, and tools.
 
 Explore the experiments via these public GitHub repositories:
 
-- fast-graphrag — https://github.com/saurabh-dhawan/fast-graphrag
-- GenerativeAIExamples — https://github.com/saurabh-dhawan/GenerativeAIExamples
-- kiwigpt — https://github.com/saurabh-dhawan/kiwigpt
-- react-native — https://github.com/saurabh-dhawan/react-native
-- AutoGPT — https://github.com/saurabh-dhawan/AutoGPT
-- MobileAI — https://github.com/saurabh-dhawan/MobileAI
-- hugoDocs — https://github.com/saurabh-dhawan/hugoDocs
-- HuggingFaceTransformers — https://github.com/saurabh-dhawan/HuggingFaceTransformers
-- Hands-On-Large-Language-Models — https://github.com/saurabh-dhawan/Hands-On-Large-Language-Models
-- ai-fine-tuning — https://github.com/saurabh-dhawan/ai-fine-tuning
-- reactapp1 — https://github.com/saurabh-dhawan/reactapp1
+- [reachy_mini](https://github.com/saurabh-dhawan/reachy_mini) — Reachy Mini robot SDK and experiments
+- [Document-Knowledge-Mining-Solution-Accelerator](https://github.com/saurabh-dhawan/Document-Knowledge-Mining-Solution-Accelerator) — Azure document knowledge mining
+- [sdk-python](https://github.com/saurabh-dhawan/sdk-python) — Python SDK explorations
+- [graphrag](https://github.com/saurabh-dhawan/graphrag) — Graph-based RAG experiments
+- [LLMs-from-scratch](https://github.com/saurabh-dhawan/LLMs-from-scratch) — Building LLMs from the ground up
+- [xpander.ai](https://github.com/saurabh-dhawan/xpander.ai) — AI agent experiments
+- [Hands-On-Large-Language-Models](https://github.com/saurabh-dhawan/Hands-On-Large-Language-Models) — LLM hands-on learning
+- [react-native](https://github.com/saurabh-dhawan/react-native) — React Native explorations
+- [hugoDocs](https://github.com/saurabh-dhawan/hugoDocs) — Hugo documentation reference
+- [AutoGPT](https://github.com/saurabh-dhawan/AutoGPT) — Autonomous AI agent experiments
+- [ai-fine-tuning](https://github.com/saurabh-dhawan/ai-fine-tuning) — AI model fine-tuning
+- [fast-graphrag](https://github.com/saurabh-dhawan/fast-graphrag) — Fast graph-based RAG
+- [GenerativeAIExamples](https://github.com/saurabh-dhawan/GenerativeAIExamples) — Generative AI code examples
+- [HuggingFaceTransformers](https://github.com/saurabh-dhawan/HuggingFaceTransformers) — Hugging Face transformer experiments
+- [MobileAI](https://github.com/saurabh-dhawan/MobileAI) — Mobile AI explorations
 
-See all repositories at https://github.com/saurabh-dhawan
+See all repositories at [github.com/saurabh-dhawan](https://github.com/saurabh-dhawan)
