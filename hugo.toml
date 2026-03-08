@@ -39,6 +39,7 @@ enableRobotsTXT = true
   mainSections = ["posts"]
   ShowReadingTime = true
   ShowToc = false
+  comments = true
   
   [params.profileMode]
     enabled = false
