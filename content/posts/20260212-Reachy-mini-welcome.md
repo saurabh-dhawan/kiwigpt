@@ -178,7 +178,7 @@ Debugging hardware and software together is a special kind of adventure, and Rea
 
 ## Next in the series
 
-➡ **[Part 2 — Debugging Reachy Mini](/posts/reachy-mini-debugging-ai-v2/)**
+➡ **[Part 2 — Debugging Reachy Mini](/posts/reachy-mini-debugging-ai/)**
 
 Firmware surprises, setup puzzles, and the process of convincing a brand new desk robot to cooperate.
 
