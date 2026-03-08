@@ -1,6 +1,6 @@
 ---
 title: "Reachy Mini Arrives in Aotearoa — The Long Wait and First Assembly"
-date: 2026-02-12
+date: 2026-02-28
 description: "A seven-month wait, a Discord message, and the first Reachy Mini shipped to New Zealand. Part 1 of the Reachy Mini Diaries."
 tags: ["reachy-mini", "robotics", "maker-journey", "ai-tinkering", "hardware"]
 series: ["Reachy Mini Diaries"]
