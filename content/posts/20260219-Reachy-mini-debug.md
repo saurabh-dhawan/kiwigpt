@@ -4,162 +4,151 @@ date: 2026-02-19
 description: "How AI and human persistence got my Reachy Mini from dead-on-arrival to fully working. Part 2 of the Reachy Mini Diaries."
 tags: ["reachy-mini", "robotics", "debugging", "ai-assist", "maker-journey"]
 keywords: ["reachy mini", "pollen robotics", "hugging face", "hardware debugging", "ai assistant"]
-slug: "reachy-mini-debugging-ai"
+slug: "reachy-mini-debugging-ai-v2"
 series: ["Reachy Mini Diaries"]
 images: []
 ---
 
 Back to [Part 1 — Reachy Mini Arrives in Aotearoa](/posts/reachy-mini-arrives-in-aotearoa/)
 
-Sometimes a robot just refuses to play ball. After assembling my Reachy Mini, that moment hit me square in the face: the little guy wouldn't boot.
+---
 
-- Power LED: green ✅
-- ACT LED: blinked once and died ❌
-- WiFi hotspot: gone ❌
-- USB-C: ignored me ❌
-- Motors 5 & 6: twitching like they were alive ✅
-- Bluetooth pairing from macOS: still worked ✅
+Sometimes a robot just refuses to cooperate.
 
-So yes, it was alive… just not enough.
+After spending seven months waiting for my Reachy Mini to arrive, I assembled it with care — and then watched it refuse to boot. Power LED: green. ACT LED: one sad blink, then nothing. No WiFi hotspot. USB-C ignored. The motors twitched promisingly, but that was it.
 
-Welcome to Part 2 of the Reachy Mini Diaries, where AI and human grit teamed up to tackle a dead robot. Spoiler: we got there.
+My little desk robot was alive enough to taunt me, but too broken to respond.
+
+This is the story of how AI and I debugged it together — and what I learned about collaborating with an assistant that never gets frustrated, never forgets documentation, and occasionally knows more than I do.
 
 ---
 
-## The Problem
+## When in Doubt, Document Everything
 
-I documented all the quirks in Issue.md and fired it off to my AI assistant, Claude:
+My first instinct was to throw the symptoms at Claude. I wrote up an `Issue.md` file with everything I'd observed: LED behaviour, USB response, motor activity, Bluetooth status. Then I asked:
 
-> "Read issue.md file and help me debug my Reachy Mini"
+> "Read issue.md and help me debug my Reachy Mini."
 
-The diagnosis came back quickly: corrupted OS on the CM4 (Compute Module 4). The ACT LED blink told the story — the CPU was trying to boot but couldn't load the system. The AI suggested reflashing the OS with rpiboot and gave step-by-step instructions for macOS.
+Within seconds, Claude had a theory: **corrupted OS on the CM4**. The ACT LED's brief blink suggested the CPU was trying to boot but couldn't load the system. The fix? Reflash the eMMC using `rpiboot`.
+
+But Claude didn't stop there. I pushed harder:
+
+> "What else might I have missed? Scan the docs, check GitHub issues, and make a full plan."
+
+The result was a five-phase debug plan — and a critical discovery buried in the documentation: a **Bluetooth reset method** via nRF Connect that might fix the issue without reflashing. I wouldn't have found that on my own.
 
 ---
 
-## Step 1: Cloning the SDK
+## The Bluetooth Reset That Wasn't
 
-First, the AI suggested grabbing the SDK repository, so it could access all the docs and troubleshooting guides:
+Using nRF Connect on my phone, I paired with the robot and sent reset commands:
+
+1. `PIN_02687` — authentication using the serial number
+2. `CMD_SOFTWARE_RESET` — trigger a reboot
+
+Nothing happened.
+
+Claude's diagnosis was calm and precise: the Bluetooth service runs at a low level, even when the OS isn't functional. The robot could receive commands, but it couldn't execute them — because there was no operating system to execute anything.
+
+Lesson learned: **sometimes the low-level stuff is alive, but the full system is toast.**
+
+Time to reflash.
+
+---
+
+## Reflashing the OS (The Hard Way)
+
+This is where Claude earned its keep. Reflashing a CM4 isn't trivial — it requires:
+
+- `rpiboot` to put the CM4 into USB mass storage mode
+- `bmaptool` for fast, verified image flashing
+- Physical access to a hidden switch inside the robot's head
+
+Claude walked me through every step:
 
 ```bash
-git clone https://github.com/saurabh-dhawan/reachy_mini.git temp_clone
-mv temp_clone/* temp_clone/.* .
-rm -rf temp_clone
+# Build rpiboot
+cd ~/Development
+git clone --depth=1 https://github.com/raspberrypi/usbboot
+cd usbboot && make
+
+# Install bmaptool
+pipx install git+https://github.com/yoctoproject/bmaptool.git
+
+# Download ReachyMiniOS
+curl -LO "https://github.com/pollen-robotics/reachy-mini-os/releases/download/v0.2.3/image_2026-01-14-reachyminios-lite-v0.2.3.zip"
+curl -LO "https://github.com/pollen-robotics/reachy-mini-os/releases/download/v0.2.3/2026-01-14-reachyminios-lite-v0.2.3.bmap"
 ```
 
-Now AI had all the context it needed to think like a Reachy Mini expert.
+Then came the physical prep: power off, flip the switch to DOWNLOAD, connect USB internally. Claude reminded me to start `rpiboot` *before* powering on — a mistake that would have cost me another frustrating hour.
+
+The flash took two and a half minutes. Then: switch back to DEBUG, power on, wait...
+
+**WiFi connected.** 🎉
 
 ---
 
-## Step 2: Deep Dive into Documentation
+## One Bug Fixed, Another Appears
 
-Next, I asked AI to be thorough:
+Of course it wasn't that simple.
 
-> "Scan all directories and files, check forums and GitHub issues, and make a plan."
+The dashboard loaded, but the motors weren't responding. The testbench showed motors 11, 12, and 13 missing — the three Stewart platform motors that control the head's tilt.
 
-It dug through:
-- troubleshooting.md
-- reflash_the_rpi_ISO.md
-- reset.md
-- motors_diagnosis.md
+Claude spotted the pattern immediately: **successive missing IDs usually mean a cable disconnect.** When I'd opened the head to flip the switch, I must have pulled the cable loose between motor 10 (body) and motor 11 (first Stewart motor).
 
-The nugget of gold? The nRF Connect Bluetooth reset method in reset.md. That could be tried before reflashing. The AI built a phased DEBUG_PLAN.md:
+I powered off, opened the neck, found the 3-wire cable dangling free, reconnected it, and powered back on.
 
-1. Basic verification
-2. Bluetooth reset
-3. Advanced hardware checks
-4. Reflash OS
-5. Post-flash verification
+**Everything worked.**
 
 ---
 
-## Step 3: Bluetooth Reset Attempt
-
-Using nRF Connect, I connected to Reachy Mini. The AI guided me:
-- Autoconnect: OFF
-- PHY: default
-- Bond: OFF
-
-Commands sent:
-1. PIN_02687 (last 5 of serial)
-2. CMD_SOFTWARE_RESET
-
-Nothing happened. The CM4 was polite but firm: "I can't execute a software reset because my OS isn't even loaded."
-
-Lesson learned: sometimes the low-level stuff is alive, but the full system is toast.
-
----
-
-## Step 4: Reflashing the OS
-
-Time to bring out the big guns. AI walked me through rpiboot and bmaptool:
-- Installed prerequisites (libusb, pkg-config, pipx)
-- Built rpiboot
-- Installed bmaptool
-- Downloaded ReachyMiniOS v0.2.3 (1.7GB image + 14KB bmap)
-
-Physical prep:
-1. Power OFF
-2. Set switch SW1 to DOWNLOAD
-3. Connect USB-C internally
-
-Then ran rpiboot and powered ON. Disk appeared, unmounted, flashed:
-
-```bash
-sudo bmaptool copy image_2026-01-14-reachyminios-lite-v0.2.3.zip \
-  --bmap 2026-01-14-reachyminios-lite-v0.2.3.bmap /dev/rdisk5
-diskutil eject /dev/disk5
-```
-
-Switch back to DEBUG, power ON… WiFi connected. Finally, a green light moment. 🎉
-
----
-
-## Step 5: Motors Missing
-
-Next hiccup: motors not detected. AI quickly analysed the pattern: missing successive IDs usually mean a cable disconnect. Sure enough, the cable from motor 10 (body) to motor 11 (Stewart platform) had come loose when I toggled the switch.
-
-Reconnect → power ON → all motors back online. Phew.
-
----
-
-## Summary Table
+## What I Learned
 
 | Phase | Problem | Solution |
 |-------|---------|----------|
-| 1 | No WiFi hotspot | Corrupted OS |
-| 2 | Bluetooth reset failed | OS not running |
+| 1 | No WiFi hotspot | Corrupted OS diagnosed |
+| 2 | Bluetooth reset failed | OS wasn't running |
 | 3 | Reflashed OS | rpiboot + bmaptool |
-| 4 | Motors not detected | Reconnected loose cable |
+| 4 | Motors missing | Reconnected loose cable |
 
-Root cause: Corrupted OS + accidentally disconnected motor cable.
+**Root cause:** A corrupted OS, plus a cable I accidentally disconnected while troubleshooting.
+
+---
+
+## Why AI Made the Difference
+
+This wasn't a case of AI doing all the work. I still had to:
+
+- Physically open the robot
+- Flip switches
+- Run commands
+- Reconnect cables
+
+But AI did things I couldn't:
+
+1. **Found buried documentation** — The Bluetooth reset method was in a file I'd never have searched.
+2. **Stayed systematic** — When I was ready to reflash immediately, Claude suggested trying the simpler fix first.
+3. **Diagnosed the second failure instantly** — Successive missing motor IDs pointing to a cable break is hardware debugging experience I don't have.
+
+The collaboration felt natural: AI provided knowledge and reasoning, I provided hands and real-time feedback. Neither of us could have done it alone.
 
 ---
 
 ## Tools Used
 
-| Tool | Purpose | Link |
-|------|---------|------|
-| rpiboot | Put CM4 in USB mass storage mode | [GitHub](https://github.com/raspberrypi/usbboot) |
-| bmaptool | Fast image flashing | [GitHub](https://github.com/intel/bmap-tools) |
-| nRF Connect | Bluetooth debugging | [iOS](https://apps.apple.com/app/nrf-connect/id1054362403) / [Android](https://play.google.com/store/apps/details?id=no.nordicsemi.android.mcp) |
-| ReachyMiniOS | Official OS image | [Releases](https://github.com/pollen-robotics/reachy-mini-os/releases) |
-| Reachy Mini Testbench | Motor diagnosis app | [Hugging Face](https://huggingface.co/spaces/pollen-robotics/reachy-mini-testbench) |
+| Tool | Purpose |
+|------|---------|
+| [rpiboot](https://github.com/raspberrypi/usbboot) | Put CM4 in USB mass storage mode |
+| [bmaptool](https://github.com/intel/bmap-tools) | Fast image flashing |
+| [nRF Connect](https://apps.apple.com/app/nrf-connect/id1054362403) | Bluetooth debugging |
+| [ReachyMiniOS](https://github.com/pollen-robotics/reachy-mini-os/releases) | Official OS image |
+| [Reachy Mini Testbench](https://huggingface.co/spaces/pollen-robotics/reachy-mini-testbench) | Motor diagnosis |
 
 ---
 
-## Key Takeaways
+## Coming Up: Part 3 — First Impressions
 
-1. AI spotted buried documentation I missed
-2. Step-by-step guidance is invaluable during flashing
-3. Missing motor IDs usually point to a physical disconnect
-4. Simple fixes + AI knowledge = success
-5. AI + human collaboration accelerates debugging
-
----
-
-## Coming Up in Part 3: It Coming Alive
-
-With the OS flashed and motors finally cooperating, it's time for the real fun: first impressions, testing behaviors, and experimenting with what Reachy Mini can actually do. Expect tiny victories, surprising quirks, and a robot that slowly — but surely — starts to feel alive.
+With the OS flashed and motors cooperating, it's time for the real fun: testing behaviours, experimenting with what Reachy Mini can do, and discovering the quirks of a robot that's finally, stubbornly, alive.
 
 ---
 
