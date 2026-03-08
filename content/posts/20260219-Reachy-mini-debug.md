@@ -24,7 +24,7 @@ So yes, it was alive… just not enough.
 
 Welcome to Part 2 of the Reachy Mini Diaries, where AI and human grit teamed up to tackle a dead robot. Spoiler: we got there.
 
-⸻
+---
 
 The Problem
 
@@ -34,7 +34,7 @@ I documented all the quirks in Issue.md and fired it off to my AI assistant, Cla
 
 The diagnosis came back quickly: corrupted OS on the CM4 (Compute Module 4). The ACT LED blink told the story — the CPU was trying to boot but couldn’t load the system. The AI suggested reflashing the OS with rpiboot and gave step-by-step instructions for macOS.
 
-⸻
+---
 
 Step 1: Cloning the SDK
 
@@ -46,7 +46,7 @@ rm -rf temp_clone
 
 Now AI had all the context it needed to think like a Reachy Mini expert.
 
-⸻
+---
 
 Step 2: Deep Dive into Documentation
 
@@ -67,7 +67,7 @@ The nugget of gold? The nRF Connect Bluetooth reset method in reset.md. That cou
 	4.	Reflash OS
 	5.	Post-flash verification
 
-⸻
+---
 
 Step 3: Bluetooth Reset Attempt
 
@@ -84,7 +84,7 @@ Nothing happened. The CM4 was polite but firm: “I can’t execute a software r
 
 Lesson learned: sometimes the low-level stuff is alive, but the full system is toast.
 
-⸻
+---
 
 Step 4: Reflashing the OS
 
@@ -107,7 +107,7 @@ diskutil eject /dev/disk5
 
 Switch back to DEBUG, power ON… WiFi connected. Finally, a green light moment. 🎉
 
-⸻
+---
 
 Step 5: Motors Missing
 
@@ -115,7 +115,7 @@ Next hiccup: motors not detected. AI quickly analysed the pattern: missing succe
 
 Reconnect → power ON → all motors back online. Phew.
 
-⸻
+---
 
 Summary Table
 
@@ -127,7 +127,7 @@ Phase	Problem	Solution
 
 Root cause: Corrupted OS + accidentally disconnected motor cable.
 
-⸻
+---
 
 Tools Used
 
@@ -139,7 +139,7 @@ ReachyMiniOS	Official OS image	Releases￼
 Reachy Mini Testbench	Motor diagnosis app	Hugging Face￼
 
 
-⸻
+---
 
 Key Takeaways
 	1.	AI spotted buried documentation I missed
@@ -148,12 +148,12 @@ Key Takeaways
 	4.	Simple fixes + AI knowledge = success
 	5.	AI + human collaboration accelerates debugging
 
-⸻
+---
 
 Coming Up in Part 3: It Coming Alive
 
 With the OS flashed and motors finally cooperating, it’s time for the real fun: first impressions, testing behaviors, and experimenting with what Reachy Mini can actually do. Expect tiny victories, surprising quirks, and a robot that slowly — but surely — starts to feel alive.
 
-⸻
+---
 
 Written for KiwiGPT.co.nz￼ — Generated, Published and Tinkered with AI by a Kiwi
