@@ -9,7 +9,7 @@ slug: "reachy-mini-arrives-in-aotearoa"
 images: ["/images/reachy-mini/reachy-mini-built.jpg"]
 ---
 
-![Reachy Mini assembled on a desk](/images/reachy-mini/reachy-mini-built.jpg)
+![Reachy Mini assembled](/images/reachy-mini/reachy-mini-built.jpg)
 
 There are two kinds of tech excitement.
 
