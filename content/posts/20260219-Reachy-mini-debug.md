@@ -1,18 +1,15 @@
-
-⸻
-
-title: “From Boot Failure to Success — AI-Assisted Hardware Debugging”
+---
+title: "From Boot Failure to Success — AI-Assisted Hardware Debugging"
 date: 2026-02-19
-description: “How AI and human persistence got my Reachy Mini from dead-on-arrival to fully working. Part 2 of the Reachy Mini Diaries.”
-tags: [“reachy-mini”, “robotics”, “debugging”, “ai-assist”, “maker-journey”]
-keywords: [“reachy mini”, “pollen robotics”, “hugging face”, “hardware debugging”, “ai assistant”]
-slug: “reachy-mini-debugging-ai”
-series: [“Reachy Mini Diaries”]
+description: "How AI and human persistence got my Reachy Mini from dead-on-arrival to fully working. Part 2 of the Reachy Mini Diaries."
+tags: ["reachy-mini", "robotics", "debugging", "ai-assist", "maker-journey"]
+keywords: ["reachy mini", "pollen robotics", "hugging face", "hardware debugging", "ai assistant"]
+slug: "reachy-mini-debugging-ai"
+series: ["Reachy Mini Diaries"]
 images: []
+---
 
-Back to Part 1 — Reachy Mini Arrives in Aotearoa￼
-
-⸻
+Back to [Part 1 — Reachy Mini Arrives in Aotearoa](/posts/reachy-mini-arrives-in-aotearoa/)
 
 Sometimes a robot just refuses to play ball. After assembling my Reachy Mini, that moment hit me square in the face: the little guy wouldn’t boot.
 
