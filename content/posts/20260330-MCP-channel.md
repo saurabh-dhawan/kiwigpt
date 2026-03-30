@@ -1,7 +1,7 @@
 ---
 title: "From APIs to AI Channels: The Next Evolution"
 date: 2026-03-30
-description: "APIs enabled integration. MCP introduces AI channels—making enterprise systems predictable, structured, and efficient for AI agents."
+description: "APIs enabled integration. MCP introduces AI channels, making enterprise systems predictable, structured, and efficient for AI agents."
 tags: ["MCP", "AI Architecture", "APIs", "AI Agents", "Enterprise"]
 keywords: ["Model Context Protocol", "AI channels", "API evolution", "enterprise AI architecture", "NZ tech"]
 slug: from-apis-to-ai-channels
@@ -53,10 +53,10 @@ AI agents don’t get that luxury. Every interaction is closer to a fresh start.
 
 So the real problems aren’t capability. They’re:
 
-- **Latency** — too much reading before acting  
-- **Ambiguity** — multiple valid paths, unclear best choice  
-- **Non-determinism** — same task, different API choices each time  
-- **Fragility** — small doc changes can shift behaviour  
+- **Latency** : too much reading before acting  
+- **Ambiguity** : multiple valid paths, unclear best choice  
+- **Non-determinism** : same task, different API choices each time  
+- **Fragility** : small doc changes can shift behaviour  
 
 That’s where things break.
 
@@ -127,9 +127,9 @@ It’s what they expose.
 
 Instead of forcing an AI to *figure things out each time*, MCP standardises access to:
 
-- **Resources** — curated, structured knowledge (APIs, schemas, docs)  
-- **Tools** — explicit, callable capabilities  
-- **Prompts** — reusable reasoning scaffolds  
+- **Resources** : curated, structured knowledge (APIs, schemas, docs)  
+- **Tools** : explicit, callable capabilities  
+- **Prompts** : reusable reasoning scaffolds  
 
 This changes the game.
 
