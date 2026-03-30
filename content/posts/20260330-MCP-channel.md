@@ -9,7 +9,7 @@ images: ["/images/mcp-architecture.png"]
 ---
 
 Your system already has APIs. Documentation. Schemas.  
-And yet—an AI agent still can’t use it properly.
+And yet an AI agent still can’t use it properly.
 
 That’s not a tooling problem. It’s a **channel problem**.
 
@@ -180,7 +180,7 @@ MCP makes systems **reliably operable by machines**.
 
 ## Why this matters
 
-We’re moving into a world where AI agents don’t just assist—they act.
+We’re moving into a world where AI agents don’t just assist, they act.
 
 They trigger workflows, query systems, and make decisions within defined boundaries.
 
@@ -203,7 +203,11 @@ APIs gave us access.
 
 MCP gives us **control over how AI uses that access**.
 
-That’s the difference between something that works in demos—and something that works in production.
+That’s the difference between something that works in demos and something that works in production.
+
+## How does it fit with the existing channels
+
+This deserves it's own page so watchout for my next post. Sign out for now.
 
 ---
 
