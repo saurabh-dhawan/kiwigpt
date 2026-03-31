@@ -1,14 +1,14 @@
 ---
 title: "Where the MCP Channel Fits: Humans, Digital Systems, and AI"
 date: 2026-03-31
-description: "A simple way to understand how MCP fits alongside human and digital channels in modern enterprise systems."
+description: "A simple way to understand how MCP fits alongside existing channels in modern enterprises"
 tags: ["MCP", "AI Architecture", "Enterprise Systems", "Channels", "AI Agents"]
 keywords: ["MCP channel explained", "human vs digital channels", "AI channels enterprise", "model context protocol architecture", "NZ tech"]
 slug: where-mcp-channel-fits
 images: ["/images/enterprise-channel-architecture.png"]
 ---
 
-Your system already has many channels.
+Your enterprise already has many channels.
 
 Humans use some.  
 Machines use some.  
