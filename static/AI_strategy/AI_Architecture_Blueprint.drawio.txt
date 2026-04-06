@@ -1,0 +1,54 @@
+<mxGraphModel dx="1649" dy="1036" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+  <root>
+    <mxCell id="0" />
+    <mxCell id="1" parent="0" />
+    <mxCell id="oaFOCfdH19wKA9-4LWH0-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#5e92c4;fontColor=#ffffff;strokeColor=#5e92c4;fontSize=20;fontStyle=1;align=center;verticalAlign=middle;" value="&lt;font&gt;AI Software and Applications&lt;/font&gt;" vertex="1">
+      <mxGeometry height="25" width="1423" x="447" y="489" as="geometry" />
+    </mxCell>
+    <mxCell id="oaFOCfdH19wKA9-4LWH0-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#90a4ae;fontSize=17;align=left;verticalAlign=middle;fontStyle=1" value="&lt;ul&gt;&lt;li&gt;Copilot&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;GitHub Copilot&lt;/span&gt;&lt;/li&gt;&lt;li&gt;Claude&lt;/li&gt;&lt;li&gt;Claude Projects&lt;/li&gt;&lt;li&gt;Copilot Pages&lt;/li&gt;&lt;/ul&gt;" vertex="1">
+      <mxGeometry height="158" width="262" x="448" y="518" as="geometry" />
+    </mxCell>
+    <mxCell id="oaFOCfdH19wKA9-4LWH0-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#0a4874, #92c1e4);fontColor=#ffffff;strokeColor=#1a237e;fontSize=19;fontStyle=1;align=center;verticalAlign=middle;fontFamily=Helvetica;gradientColor=light-dark(#091c2c, #ededed);gradientDirection=west;" value="&lt;div&gt;AI&amp;nbsp;&lt;/div&gt;&lt;div&gt;Technology&amp;nbsp;&lt;/div&gt;&lt;div&gt;a&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18));&quot;&gt;nd&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;Architecture&lt;/div&gt;" vertex="1">
+      <mxGeometry height="458" width="180" x="260" y="220" as="geometry" />
+    </mxCell>
+    <mxCell id="oaFOCfdH19wKA9-4LWH0-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#90a4ae;fontSize=17;align=left;verticalAlign=middle;fontStyle=1" value="&lt;ul&gt;&lt;li&gt;&lt;font&gt;Copilot Studio&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;font&gt;Azure Foundry&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;font&gt;AWS Bedrock&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font&gt;Claude Desktop&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;" vertex="1">
+      <mxGeometry height="158" width="620" x="790" y="521" as="geometry" />
+    </mxCell>
+    <mxCell id="oaFOCfdH19wKA9-4LWH0-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#90a4ae;fontSize=17;align=left;verticalAlign=middle;fontStyle=1" value="&lt;ul&gt;&lt;li&gt;AWS Sagemaker&lt;/li&gt;&lt;li&gt;Ollama&lt;/li&gt;&lt;li&gt;Hugging Face Transformers&lt;/li&gt;&lt;li&gt;Pytorch&lt;/li&gt;&lt;li&gt;TBD&lt;/li&gt;&lt;/ul&gt;" vertex="1">
+      <mxGeometry height="161" width="390" x="1480" y="519" as="geometry" />
+    </mxCell>
+    <mxCell id="oaFOCfdH19wKA9-4LWH0-13" parent="1" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=light-dark(#0a2438, #32a0ff);shadow=0;dashed=0;shape=mxgraph.ios7.icons.add;" value="" vertex="1">
+      <mxGeometry height="40" width="40" x="730" y="573" as="geometry" />
+    </mxCell>
+    <mxCell id="oaFOCfdH19wKA9-4LWH0-14" parent="1" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=light-dark(#0a2438, #32a0ff);shadow=0;dashed=0;shape=mxgraph.ios7.icons.add;" value="" vertex="1">
+      <mxGeometry height="40" width="40" x="1428" y="573" as="geometry" />
+    </mxCell>
+    <mxCell id="oaFOCfdH19wKA9-4LWH0-16" parent="1" style="text;whiteSpace=wrap;html=1;fillColor=#FFFFFF;labelBackgroundColor=default;fontSize=17;" value="&lt;ul style=&quot;forced-color-adjust: none; orphans: 2; text-align: left; text-indent: 0px; widows: 2; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; color: rgb(0, 0, 0);&quot;&gt;&lt;li style=&quot;color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237)); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; text-transform: none; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; forced-color-adjust: none;&quot;&gt;&lt;font&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237)); background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;Modern IDEs (e.g.&amp;nbsp;&lt;/span&gt;Cursor)&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));&quot;&gt;&lt;font&gt;&lt;b&gt;AI App Builders&amp;nbsp;&lt;/b&gt;&lt;b style=&quot;color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237)); background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;(e.g.&amp;nbsp;&lt;/b&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237)); background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;&lt;b&gt;Vercel V0&lt;/b&gt;)&lt;/span&gt;&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237)); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; text-transform: none; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal;&quot;&gt;&lt;font&gt;AI Orchestration (e.g. Langchain)&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237)); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 700; letter-spacing: normal; text-transform: none; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; forced-color-adjust: none;&quot;&gt;&lt;font&gt;Vector Databases (e.g. Supabase, Chroma)&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;forced-color-adjust: none;&quot;&gt;&lt;font&gt;&lt;b style=&quot;color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));&quot;&gt;AI CLI Agents (e.g.&amp;nbsp;&lt;/b&gt;&lt;b style=&quot;&quot;&gt;Claude Code)&lt;/b&gt;&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;" vertex="1">
+      <mxGeometry height="69" width="390" x="1016" y="529" as="geometry" />
+    </mxCell>
+    <mxCell id="Fcguhr8CCqDyVhfO_KIO-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#37474f;fontColor=#ffffff;strokeColor=#37474f;fontSize=23;fontStyle=1;align=center;verticalAlign=middle;" value="Microsoft (Copilot, Azure Foundry), AWS (Bedrock, Sagemaker), Claude" vertex="1">
+      <mxGeometry height="74" width="1424" x="445" y="248" as="geometry" />
+    </mxCell>
+    <mxCell id="Fcguhr8CCqDyVhfO_KIO-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#5e92c4;fontColor=#ffffff;strokeColor=#5e92c4;fontSize=20;fontStyle=1;align=center;verticalAlign=middle;fontFamily=Helvetica;" value="AI Platforms" vertex="1">
+      <mxGeometry height="25" width="1423.5" x="445.5" y="221" as="geometry" />
+    </mxCell>
+    <mxCell id="Fcguhr8CCqDyVhfO_KIO-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#90a4ae;fontSize=17;align=center;verticalAlign=middle;fontStyle=1" value="Enablers, AI Principles, Patterns, Reference Architectures, AI Risks and Trustworthiness, Bias definitions, Cost Optimizations, Best practices" vertex="1">
+      <mxGeometry height="60" width="1423" x="447.75" y="352" as="geometry" />
+    </mxCell>
+    <mxCell id="Fcguhr8CCqDyVhfO_KIO-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#5e92c4;fontColor=#ffffff;strokeColor=#5e92c4;fontSize=20;fontStyle=1;align=center;verticalAlign=middle;fontFamily=Helvetica;" value="Architecture Runway" vertex="1">
+      <mxGeometry height="25" width="1425.25" x="445.5" y="327" as="geometry" />
+    </mxCell>
+    <mxCell id="Fcguhr8CCqDyVhfO_KIO-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#90a4ae;fontSize=17;align=left;verticalAlign=middle;fontStyle=1" value="&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;LLMs, Prompt Engineering&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;" vertex="1">
+      <mxGeometry height="40" width="262" x="448.5" y="446" as="geometry" />
+    </mxCell>
+    <mxCell id="Fcguhr8CCqDyVhfO_KIO-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#90a4ae;fontSize=17;align=left;verticalAlign=middle;fontStyle=1" value="&lt;ul&gt;&lt;li&gt;Multi-model LLMs, AI Agents, Agentic Protocols (e.g. MCP), Context Engineering, API Inference, Embedding models and services&lt;/li&gt;&lt;/ul&gt;" vertex="1">
+      <mxGeometry height="40" width="620" x="792.5" y="445" as="geometry" />
+    </mxCell>
+    <mxCell id="Fcguhr8CCqDyVhfO_KIO-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#90a4ae;fontSize=17;align=left;verticalAlign=middle;fontStyle=1" value="&lt;ul&gt;&lt;li&gt;LLM Fine-tuning, Machine Learning, SLM, Model Hosting, Data Science&lt;/li&gt;&lt;/ul&gt;" vertex="1">
+      <mxGeometry height="40" width="390" x="1482.5" y="446" as="geometry" />
+    </mxCell>
+    <mxCell id="Fcguhr8CCqDyVhfO_KIO-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#5e92c4;fontColor=#ffffff;strokeColor=#5e92c4;fontSize=20;fontStyle=1;align=center;verticalAlign=middle;fontFamily=Helvetica;" value="Core AI Models &amp;amp; Architectures" vertex="1">
+      <mxGeometry height="25" width="1424.5" x="448" y="416.5" as="geometry" />
+    </mxCell>
+  </root>
+</mxGraphModel>
