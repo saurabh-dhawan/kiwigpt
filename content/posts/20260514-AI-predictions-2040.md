@@ -19,8 +19,6 @@ images:
   - /images/ai-adoption-legacy-systems.png
 ---
 
-# Why AI Adoption Will Be Slower and Stranger Than People Think
-
 Here is a real story.
 
 Back in early 2025, one of my very AI forward colleagues and I were talking about where all this was heading. He was convinced that by the end of 2026 AI would already have dramatic reach across society. The paranoia was real. Jobs gone. Massive disruption. Entire industries changing overnight.
