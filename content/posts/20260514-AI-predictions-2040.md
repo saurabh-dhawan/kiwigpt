@@ -1,5 +1,5 @@
 ---
-title: "Why AI Adoption Will Be Slower and Stranger Than People Think"
+title: "Why AI Adoption Will Be Slower (and Stranger) Than People Think"
 date: 2026-05-14
 description: "AI is moving fast. Institutions are not. A look at why AI adoption across business and government will be uneven, messy, and far stranger than most predictions."
 tags:
