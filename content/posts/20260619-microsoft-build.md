@@ -4,7 +4,7 @@ date: 2026-06-19
 author: Saurabh
 tags: [microsoft, ai, agents, foundry, copilot, wellington]
 slug: microsoft-build-localhost-wellington-2026
-description: "Live notes and honest takes from Microsoft's Build //localhost event in Wellington — the good, the fuzzy, and the one thing I'm trying first."
+description: "Live notes and honest takes from Microsoft's Build //localhost event in Wellington: the good, the fuzzy, and the one thing I'm trying first."
 ---
 
 ## Eight things I noticed at Microsoft Build //localhost:Wellington
@@ -13,7 +13,7 @@ description: "Live notes and honest takes from Microsoft's Build //localhost eve
 
 &nbsp;
 
-Yesterday I headed into the city for [Microsoft Build //localhost:Wellington](https://developer.microsoft.com/en-us/reactor/events/27230/), hosted at Level 13, 10 Brandon Street. It was part of Microsoft Reactor's global //localhost series — local echoes of the main Build 2026 event that ran in San Francisco on 2-3 June. The Wellington room had a good mix: developers, cloud engineers, a few architect types, and apparently at least one sales person who had clearly been told they needed to code now.
+Yesterday I headed into the city for [Microsoft Build //localhost:Wellington](https://developer.microsoft.com/en-us/reactor/events/27230/), hosted at Level 13, 10 Brandon Street. It was part of Microsoft Reactor's global //localhost series, local echoes of the main Build 2026 event that ran in San Francisco on 2-3 June. The Wellington room had a good mix: developers, cloud engineers, a few architect types, and apparently at least one sales person who had clearly been told they needed to code now.
 
 Speakers came from Microsoft New Zealand and the wider Asia-Pacific team. The format was live demos, guided lab walkthroughs, and time to actually try things. No slides-only keynote theatre. That suited me.
 
@@ -25,15 +25,15 @@ Here are eight observations from the day, in roughly the order they landed.
 
 The most quietly remarkable thing about the morning session was watching a Microsoft sales person walk through a GitHub Copilot coding workflow without blinking. Not performatively, not as a demo passenger. As someone who clearly uses it.
 
-Microsoft's big framing at Build 2026 was that the platform shift is here — not just "AI helps developers" but "everyone in the organisation is being pulled toward building." The MAI-Code-1 model, tuned specifically for GitHub and VS Code, is part of that. So is the new GitHub Copilot app, which moves agentic workflows out of the editor and into a native desktop experience tracking sessions, issues, PRs, and background automation in one place.
+Microsoft's big framing at Build 2026 was that the platform shift is here -not just "AI helps developers" but "everyone in the organisation is being pulled toward building." The MAI-Code-1 model, tuned specifically for GitHub and VS Code, is part of that. So is the new GitHub Copilot app, which moves agentic workflows out of the editor and into a native desktop experience tracking sessions, issues, PRs, and background automation in one place.
 
 When the tooling gets good enough that a sales person is doing it in a product demo without flinching, something has changed. Worth noting.
 
 &nbsp;
 
-### 2. Copilot Cowork is generally available today — but nobody could clearly explain why it has its own licence
+### 2. Copilot Cowork is generally available today - but nobody could clearly explain what value does it provide and why it has its own licence (From my own experience of Claude cowork and Copilot cowork - Claude cowork is a much better offering btw)
 
-Microsoft [announced Copilot Cowork GA](https://redmondmag.com/articles/2026/06/02/microsoft-uses-build-2026-to-put-ai-agents-at-the-center-of-windows.aspx) at Build, moving it from preview into broad enterprise use. The room was interested. Then someone asked the obvious question: why a separate licence rather than rolling it into the standard Microsoft 365 Copilot entitlement?
+Microsoft [announced Copilot Cowork GA](https://redmondmag.com/articles/2026/06/02/microsoft-uses-build-2026-to-put-ai-agents-at-the-center-of-windows.aspx) at Build, moving it from preview into broad enterprise use. The room was interested. Then yours truly asked the obvious question: why a separate licence rather than rolling it into the standard Microsoft 365 Copilot entitlement?
 
 The answer was... not clear. There was talk of consumption models, Copilot Credits as the new pay-as-you-go meter for agent work, and some nuance about how per-user Copilot stays separate from agent execution costs. But the commercial logic — why this product, why this boundary, why now — was genuinely fuzzy. Nobody in the room left with a clean sentence they could take back to their CFO.
 
@@ -135,4 +135,4 @@ Thanks to the Microsoft Reactor team for putting on a good day in Wellington. Go
 
 ---
 
-*Written by a Kiwi, generating, publishing and tinkering with AI. On 18 June 2026 I attended Microsoft Build //localhost:Wellington, and this is what I brought back. Follow-up post on Foundry Local incoming — once I've actually run it. Views are genuinely my own, half-formed, and subject to revision. That's kind of the point.*
+*Written by a Kiwi, generating, publishing and tinkering with AI. On 18 June 2026 I attended Microsoft Build //localhost:Wellington, and this is what I brought back. Follow-up post on Foundry Local incoming - once I've actually run it. Views are genuinely my own, half-formed, and subject to revision. That's kind of the point :)*
