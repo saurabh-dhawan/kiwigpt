@@ -49,9 +49,9 @@ If you're evaluating this for your organisation, wait a cycle. The licensing wil
 
 The pitch is simple: there are workloads you don't want leaving your network. Legal documents, client data, IP-sensitive drafts. Foundry Local gives you the Foundry developer experience (11,000+ models in the catalogue, the same SDK, the same eval tooling) running entirely on your hardware.
 
-For me this is interesting both personally and at work. I want to try it with a few FMG architecture artefacts — the kind of documents that are too sensitive to run through a cloud API casually. The demo showed it's not a stripped-down fallback; it's the same platform, just with locality as a design constraint.
+For me this is interesting both personally and at work. I want to try it for kind of documents that are too sensitive to run through a cloud API casually. The demo showed it's not a stripped-down fallback; it's the same platform, just with locality as a design constraint.
 
-I'll write a follow-up post once I've actually run it.
+I'll write a follow-up post once I've actually run it. At the outset it is MS version of Ollama.
 
 &nbsp;
 
@@ -85,7 +85,7 @@ The thing I liked about this framing: it treats evaluation as a continuous loop,
 
 The demo was compelling. The continuous improvement loop — where every new production trace feeds back into evaluation and optimization — is the right architecture for agents that need to stay reliable over time.
 
-Here's my honest question from the day: what about Copilot Studio agents?
+This was my other question on the day: what about Copilot Studio agents?
 
 A large number of Microsoft customers are going to build their first production agents in Copilot Studio, not in Foundry. The no-code, configuration-first path is where most business teams will start. Agent Optimizer is currently a Foundry story. The rubric evaluator is a Foundry story. The tracing and observability that makes all of this work — also Foundry.
 
