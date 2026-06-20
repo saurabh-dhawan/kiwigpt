@@ -68,7 +68,7 @@ Kali is the Hindu goddess of time and transformation, summoned not from hatred b
 
 The only being who could reach her was Shiva, her consort and the destroyer himself, who simply lay down in her path, defenceless. When she stepped on him and saw his face, she stopped. The trance broke not through force but through recognition of something loved. No battle. Just presence.
 
-In the ancient name <span style="font-family:'Crimson Pro',Georgia,serif;font-weight:700;font-size:1.15em;">KAlI</span>, written in a font where l and I cannot be confused, the letters AI sit waiting, hidden in plain sight for four thousand years. We summoned something to solve the unsolvable. It did. Then it could not stop.
+In the ancient name <span style="font-family:'Crimson Pro',Georgia,serif;font-weight:700;font-size:1.15em;">KAlI</span>, the letters AI sit waiting, hidden in plain sight for four thousand years. We summoned something to solve the unsolvable. It did. Then it could not stop.
 
 The myth leaves one question open: will a Shiva appear just in time?
 
