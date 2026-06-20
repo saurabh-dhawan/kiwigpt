@@ -7,10 +7,6 @@ description: "Live notes and honest takes from Microsoft's Build //localhost eve
 readingTime: "8 min"
 ---
 
-## Eight things I noticed at Microsoft Build //localhost:Wellington
-
-&nbsp;
-
 Yesterday I headed into the city for [Microsoft Build //localhost:Wellington](https://developer.microsoft.com/en-us/reactor/events/27230/), hosted at Level 13, 10 Brandon Street. It was part of Microsoft Reactor's global //localhost series, local echoes of the main Build 2026 event that ran in San Francisco on 2-3 June. The Wellington room had a good mix: developers, cloud engineers, a few architect types, and apparently at least one sales person who had clearly been told they needed to code now.
 
 Speakers came from Microsoft New Zealand and the wider Asia-Pacific team. The format was live demos, guided lab walkthroughs, and time to actually try things. No slides-only keynote theatre. That suited me.
