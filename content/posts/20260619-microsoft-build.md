@@ -1,10 +1,10 @@
 ---
 title: "Eight things I noticed at Microsoft Build //localhost:Wellington"
 date: 2026-06-19
-author: Saurabh
 tags: [microsoft, ai, agents, foundry, copilot, wellington]
 slug: microsoft-build-localhost-wellington-2026
 description: "Live notes and honest takes from Microsoft's Build //localhost event in Wellington: the good, the fuzzy, and the one thing I'm trying first."
+readingTime: "8 min"
 ---
 
 ## Eight things I noticed at Microsoft Build //localhost:Wellington
