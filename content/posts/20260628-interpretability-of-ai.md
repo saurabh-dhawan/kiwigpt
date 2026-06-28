@@ -7,9 +7,6 @@ tags:
   - Interpretability
   - Machine Learning
   - Explainability
-cover:
-  image: "/interpretability-header.png"
-  alt: "Interpretability of AI"
 ---
 
 There is a question that comes up every time I explain AI to someone for the first time. They nod along when I talk about training data, about neural networks, about predictions. Then they ask the one question that stops the conversation: but how does it actually decide what to say? And honestly, for the longest time, nobody could give a proper answer. The model worked. Nobody quite knew why it worked the way it did, in any detail you could point to. That gap between "it works" and "we understand why it works" is exactly what interpretability is trying to close.
@@ -40,4 +37,4 @@ I find something quietly reassuring in this pursuit. In a field often obsessed w
 
 ---
 
-*Written for [KiwiGPT.co.nz](https://kiwigpt.co.nz) · Generated, Published and Tinkered with AI by an Indian Kiwi*
+*Written for [KiwiGPT.co.nz](https://kiwigpt.co.nz) · Generated, Published and Tinkered with AI by a Kiwi*
