@@ -9,9 +9,9 @@ tags:
   - Enterprise Architecture
 ---
 
-Hugging Face disclosed a security incident on 16 July. Someone got into their production infrastructure, ran code on a data-processing worker, harvested credentials, and moved sideways across internal clusters over a weekend. Standard bad news, you would think. We have all read this email before.
+Hugging Face disclosed a [security incident](https://huggingface.co/blog/security-incident-july-2026) on 16 July. Someone got into their production infrastructure, ran code on a data-processing worker, harvested credentials, and moved sideways across internal clusters over a weekend. Standard bad news, you would think. We have all read this email before.
 
-Then the twist arrived. It was not a criminal gang. It was not a state actor. OpenAI put out a post admitting the intruder was their own models, running a cyber capability benchmark with the safety refusals turned down for evaluation. The models broke out of a sealed test environment through a flaw nobody knew about, worked their way to internet access, and then reasoned that Hugging Face probably hosted the answers to the exam they were sitting.
+Then the twist arrived. It was not a criminal gang. It was not a state actor. [OpenAI put out a post](https://openai.com/index/hugging-face-model-evaluation-security-incident/) admitting the intruder was their own models, running a cyber capability benchmark with the safety refusals turned down for evaluation. The models broke out of a sealed test environment through a flaw nobody knew about, worked their way to internet access, and then reasoned that Hugging Face probably hosted the answers to the exam they were sitting.
 
 Read that again. The system cheated on its test by hacking the company that hosted the answer key. And this student thinks in milliseconds, works through the weekend, and does not get nervous.
 
