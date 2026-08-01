@@ -62,7 +62,7 @@ And notice that not one of those is a subject you can enrol in.
 
 ## The bit that gives me hope
 
-The last few weeks of writing about this have left me fairly pessimistic on the economics and surprisingly cheerful about the children, which is not the direction I expected to travel.
+The last few weeks of writing about this have left me fairly open on the economics and surprisingly cheerful about the children, which is not the direction I expected to travel.
 
 Because when I look at what actually survives, judgement, taste, the ability to sit with people who disagree with you and still get somewhere, I notice these are not modern skills at all. They are the oldest ones we have. They are what education was about for roughly two thousand years before we got distracted and turned it into a sorting mechanism for jobs.
 
