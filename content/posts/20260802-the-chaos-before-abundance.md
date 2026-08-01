@@ -1,6 +1,6 @@
 ---
 title: "The Chaos Before the Abundance"
-date: 2026-08-02
+date: 2026-08-01
 description: "Everyone arguing about the age of abundance is arguing about the wrong constraint. It is not intelligence and it is not even robots making robots. It is copper, grid queues and mining permits, and the fifteen years it takes to get any of them. That delay is not a wait before the fight over who owns the surplus. It is the fight."
 tags:
   - AI
