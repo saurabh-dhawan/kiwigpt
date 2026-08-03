@@ -48,7 +48,7 @@ Nobody. And everybody. Same as Kurukshetra.
 
 Most AI alignment work draws from Western philosophy. Kant: act according to rules you'd universalise for everyone. Utilitarianism: maximise welfare. Virtue ethics: cultivate good character. All three assume a *single universal framework* that applies to all agents in all contexts.
 
-But Dharmic ethics says: there is no rule that applies to everyone. Context is everything. A medical AI has a different dharma than a military targeting system. The obligations of a Brahmin are not the obligations of a Kshatriya.
+But Dharmic ethics says: there is no rule that applies to everyone. Context is everything. A medical AI has a different dharma than a military targeting system.
 
 This isn't relativism. It's something harder - the claim that ethics is irreducibly contextual, and that any system which pretends otherwise will produce edge cases where it's technically compliant but morally wrong.
 
