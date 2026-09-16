@@ -1,6 +1,6 @@
 ---
 title: "The Clone Passed Twelve Interviews and Then Went Home"
-date: 2026-09-05
+date: 2026-09-16
 description: "Companies are screening candidates with AI. A candidate built an AI clone of himself and passed twelve first-round screens at twelve companies. Then the story just stops, and I think the stopping is the whole point."
 tags:
   - AI
