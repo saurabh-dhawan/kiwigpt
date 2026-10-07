@@ -1,6 +1,6 @@
 ---
 title: "Visual Commands for Architects: A Copy-Paste Cheat Sheet"
-date: 2026-10-08
+date: 2026-10-07
 description: "Prompt words like /explodedview, /xray and /layers are not official commands, but they work. What they are, the ones worth knowing, how to combine them, and copy-paste prompts that let the AI pick the right combination for you."
 tags:
   - AI
