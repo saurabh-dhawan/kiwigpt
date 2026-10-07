@@ -1,6 +1,6 @@
 ---
 title: "Plausible Is the New Insult"
-date: 2026-10-08
+date: 2026-10-06
 description: "AI made it easy to produce work that sounds right, and just as easy to dismiss work by calling it AI. A wizard behind a curtain, honest Iago, and the four people now sitting in every review meeting."
 tags:
   - AI
